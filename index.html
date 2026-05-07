@@ -1,206 +1,164 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Neon Eye Privacy Policy</title>
-    <style>
-      * { box-sizing: border-box; }
-      body {
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        line-height: 1.65;
-        color: #e8fbff;
-        background: #071014;
-      }
-      main { max-width: 800px; margin: 0 auto; padding: 44px 20px 56px; }
-      h1 { margin: 0 0 6px; font-size: 30px; line-height: 1.15; color: #55e7ff; }
-      h2 { margin: 34px 0 12px; font-size: 20px; line-height: 1.2; color: #55e7ff; }
-      h3 { margin: 22px 0 8px; font-size: 16px; color: #9af3ff; }
-      p, li { font-size: 15px; }
-      ul { padding-left: 22px; }
-      a { color: #55e7ff; }
-      nav { display: flex; gap: 16px; flex-wrap: wrap; margin: 22px 0 28px; }
-      .date { color: #9bb7bd; margin: 0; }
-      .contact { border: 1px solid #1f3a43; background: #0c1a20; padding: 14px 16px; border-radius: 8px; }
-      footer { margin-top: 36px; padding-top: 18px; border-top: 1px solid #1f3a43; color: #9bb7bd; font-size: 13px; }
-    </style>
-  </head>
-  <body>
-    <main>
-      <h1>Neon Eye Privacy Policy</h1>
-      <p class="date">Last updated: May 7, 2026</p>
-      <nav>
-        <a href="./privacy/">Privacy</a>
-        <a href="./terms/">Terms</a>
-        <a href="./support/">Support</a>
-      </nav>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#041209">
+  <meta name="description" content="Neon Eye privacy policy and support site for ads, consent, analytics, Game Center, purchases, leaderboards, cloud save, and support.">
+  <meta property="og:title" content="Neon Eye">
+  <meta property="og:description" content="Precision, timing, and neon focus in an independent mobile game.">
+  <meta property="og:type" content="website">
+  <title>Neon Eye Privacy Policy</title>
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="common.skip">Skip to content</a>
 
-      <p>
-        This policy explains how Neon Eye uses data in the mobile timing game.
-        The current launch profile includes ads, Google UMP consent, Apple's App
-        Tracking Transparency prompt, analytics, Apple Game Center, Apple
-        StoreKit purchases, Supabase leaderboards, Supabase cloud save, and
-        receipt-related services where configured.
-      </p>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Neon Eye home">
+      <span class="brand-mark" aria-hidden="true"><span></span></span>
+      <span>NEON EYE</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#game" data-i18n="common.game">Game</a>
+      <a href="#privacy" data-i18n="common.privacy">Privacy</a>
+      <a href="./terms/" data-i18n="common.terms">Terms</a>
+      <a href="./support/" data-i18n="common.support">Support</a>
+    </nav>
+    <label class="language-control">
+      <span data-i18n="common.language">Language</span>
+      <select data-language-select aria-label="Language">
+        <option value="en">English</option>
+        <option value="ar">العربية</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+        <option value="pt">Português</option>
+        <option value="it">Italiano</option>
+        <option value="ja">日本語</option>
+        <option value="ko">한국어</option>
+        <option value="zh">简体中文</option>
+      </select>
+    </label>
+  </header>
 
-      <h2>Information We Collect</h2>
-      <h3>Gameplay And App Usage</h3>
-      <p>
-        We may process stages played, scores, medals, session duration, selected
-        game mode, daily challenge state, cosmetic/progression state, settings,
-        ad/revive interactions, shop interactions, technical errors, diagnostics,
-        and performance data. This is used to operate the game, tune difficulty,
-        diagnose issues, protect against abuse, and measure game health.
-      </p>
-
-      <h3>Online Features</h3>
-      <p>
-        When online features are available, Neon Eye may process leaderboard
-        entries, cloud-save records, app-generated user identifiers, Game Center
-        identifiers, scores, stage progress, purchase entitlement state, and
-        related timestamps through Supabase and Apple services.
-      </p>
-
-      <h3>Advertising And Tracking</h3>
-      <p>
-        Neon Eye uses Google AdMob for interstitial ads and optional rewarded
-        ads. AdMob may collect advertising data, device identifiers, ad
-        interactions, and measurement data according to Google's policies. On
-        iOS, tracking that requires permission is controlled by Apple's App
-        Tracking Transparency prompt.
-      </p>
-
-      <h3>Purchases</h3>
-      <p>
-        In-app purchases are processed by Apple StoreKit. We store entitlement
-        state needed to unlock purchases such as Remove Ads, Battle Pass,
-        Starter Bundle, and coin packs. Apple processes payment information; we
-        do not receive full payment card details.
-      </p>
-
-      <h3>Information We Do Not Collect Directly</h3>
-      <ul>
-        <li>We do not ask for your name, phone number, or physical address.</li>
-        <li>We do not collect contacts, photos, videos, or precise location.</li>
-        <li>We do not receive your payment card number from Apple.</li>
-      </ul>
-
-      <h2>How We Use Information</h2>
-      <ul>
-        <li>Provide gameplay, local save, cloud save, leaderboards, and progression.</li>
-        <li>Operate purchases, purchase restoration, and entitlement checks.</li>
-        <li>Show, cap, measure, and troubleshoot ads, subject to consent and platform settings.</li>
-        <li>Improve balance, stability, performance, fraud prevention, and abuse protection.</li>
-        <li>Respond to support, privacy, deletion, and compliance requests.</li>
-      </ul>
-
-      <h2>Third-Party Services</h2>
-      <h3>Google Mobile Ads And Google UMP</h3>
-      <p>
-        Google Mobile Ads provides ads. Google User Messaging Platform manages
-        consent for applicable regions and may expose privacy choices in the app.
-        If consent is limited, Neon Eye requests limited or non-personalized ads
-        where applicable.
-      </p>
-      <ul>
-        <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
-        <li><a href="https://adssettings.google.com/">Google Ad Settings</a></li>
-      </ul>
-
-      <h3>Apple StoreKit, Game Center, And App Tracking Transparency</h3>
-      <p>
-        Apple provides purchase processing, purchase restoration, Game Center
-        leaderboard identity and scores, and the system tracking permission
-        prompt.
-      </p>
-      <ul>
-        <li><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></li>
-      </ul>
-
-      <h3>Supabase</h3>
-      <p>
-        Supabase may be used for analytics ingestion, cloud save, leaderboard
-        services, and receipt validation. Data stored there is used to operate,
-        protect, and improve the game.
-      </p>
-      <ul>
-        <li><a href="https://supabase.com/privacy">Supabase Privacy Policy</a></li>
-      </ul>
-
-      <h2>Your Choices</h2>
-      <h3>Tracking Permission</h3>
-      <p>
-        On iOS, you can allow or deny tracking when prompted. You can change
-        this choice in iOS Settings &gt; Privacy &amp; Security &gt; Tracking &gt;
-        Neon Eye.
-      </p>
-
-      <h3>Ad Consent And Privacy Choices</h3>
-      <p>
-        Where required, Google UMP may show a consent form. When Google reports
-        that privacy options are required, the app settings can show an Ad
-        Privacy Choices entry point.
-      </p>
-
-      <h3>Remove Ads</h3>
-      <p>
-        The Remove Ads purchase disables interstitial ads. Optional rewarded ads
-        may remain available because they are initiated by the player for a
-        reward.
-      </p>
-
-      <h3>Support And Deletion Requests</h3>
-      <p>
-        To request help, access, correction, or deletion where applicable,
-        contact us at the email below. Some data, such as Apple purchase history
-        and Game Center account data, is controlled by Apple and must be managed
-        through Apple.
-      </p>
-
-      <h2>Data Retention</h2>
-      <p>
-        We retain gameplay, analytics, leaderboard, cloud-save, and entitlement
-        data as long as needed to operate the game, maintain records, prevent
-        abuse, and comply with legal requirements. Third-party services retain
-        data according to their own policies.
-      </p>
-
-      <h2>Children's Privacy</h2>
-      <p>
-        Neon Eye is not directed to children under 13. The app includes
-        age/consent guardrails where required. If you believe a child has
-        provided personal information, contact us so we can review and delete it
-        where appropriate.
-      </p>
-
-      <h2>Data Sharing</h2>
-      <p>
-        We do not sell personal information. Data is shared with service
-        providers and platform partners only as needed to operate the game:
-      </p>
-      <ul>
-        <li>Apple for App Store distribution, purchases, Game Center, and platform privacy controls.</li>
-        <li>Google for ads, consent, and ad measurement.</li>
-        <li>Supabase for analytics, cloud save, leaderboards, and receipt validation.</li>
-      </ul>
-
-      <h2>Changes</h2>
-      <p>
-        We may update this policy as the game changes. The updated policy will
-        include a new Last updated date.
-      </p>
-
-      <h2>Contact</h2>
-      <div class="contact">
-        <p>
-          For privacy, support, correction, deletion, or purchase-support
-          requests, email
-          <a href="mailto:a.alameldien@gmail.com">a.alameldien@gmail.com</a>.
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="home.eyebrow">Precision timing game</p>
+        <h1 data-i18n="home.heroTitle">Every millisecond has a color.</h1>
+        <p class="lede" data-i18n="home.heroText">
+          Neon Eye is a focused mobile timing game about reading a moving eye,
+          striking the perfect window, and pushing deeper through a 100-stage
+          campaign.
         </p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="button primary" href="#privacy" data-i18n="home.privacyCta">Read privacy policy</a>
+          <a class="button secondary" href="./support/" data-i18n="home.supportCta">Contact support</a>
+        </div>
+        <dl class="trust-strip" aria-label="Release profile">
+          <div><dt data-i18n="home.promiseOneTitle">Player choice</dt><dd data-i18n="home.promiseOneText">Consent before ads</dd></div>
+          <div><dt data-i18n="home.promiseTwoTitle">Platform controls</dt><dd data-i18n="home.promiseTwoText">ATT and UMP</dd></div>
+          <div><dt data-i18n="home.promiseThreeTitle">Clear support</dt><dd data-i18n="home.promiseThreeText">Privacy and deletion requests</dd></div>
+        </dl>
       </div>
 
-      <footer>Copyright 2026 Neon Eye. All rights reserved.</footer>
-    </main>
-  </body>
+      <div class="game-visual" aria-label="Stylized Neon Eye gameplay visual">
+        <div class="phone-shell">
+          <div class="eye-stage">
+            <div class="eye-title">NEON EYE</div>
+            <div class="eye-ring" aria-hidden="true"></div>
+            <div class="hit-zone" aria-hidden="true"></div>
+            <div class="pulse-line" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="game" class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="home.systemEyebrow">The core idea</p>
+        <h2 data-i18n="home.systemTitle">A small game built around exact timing.</h2>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <h3 data-i18n="home.featureOneTitle">Read the eye</h3>
+          <p data-i18n="home.featureOneText">The target is simple, but the pressure comes from motion, rhythm, and the shrinking perfect window.</p>
+        </article>
+        <article>
+          <h3 data-i18n="home.featureTwoTitle">Climb the campaign</h3>
+          <p data-i18n="home.featureTwoText">Campaign progress, medals, mastery goals, and challenge modes give each clean hit a purpose.</p>
+        </article>
+        <article>
+          <h3 data-i18n="home.featureThreeTitle">Respect the player</h3>
+          <p data-i18n="home.featureThreeText">Ads and online features are documented here, controlled by consent where required, and supported by clear choices.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="privacy" class="section-block premium-band">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="privacy.eyebrow">Player trust</p>
+        <h2 data-i18n="privacy.title">Neon Eye Privacy Policy</h2>
+        <p class="legal-date" data-i18n="privacy.updated">Last updated: May 7, 2026</p>
+      </div>
+      <div class="proof-list">
+        <p data-i18n="common.translationNote">Translations are provided for convenience. If a translation differs from the English version, the English version controls.</p>
+        <p data-i18n="privacy.summary">The current launch profile includes ads, Google UMP consent, Apple's App Tracking Transparency prompt, analytics, Apple Game Center, Apple StoreKit purchases, Supabase leaderboards, Supabase cloud save, receipt validation, Remove Ads, limited/non-personalized ads, support, and deletion requests.</p>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <div class="policy-grid">
+        <article>
+          <h3 data-i18n="privacy.gameplayTitle">Gameplay And App Usage</h3>
+          <p data-i18n="privacy.gameplayText">We may process stages played, scores, medals, session duration, selected game mode, daily challenge state, cosmetic/progression state, settings, ad/revive interactions, shop interactions, technical errors, diagnostics, and performance data.</p>
+        </article>
+        <article>
+          <h3 data-i18n="privacy.onlineTitle">Online Features</h3>
+          <p data-i18n="privacy.onlineText">When online features are available, Neon Eye may process leaderboard entries, cloud-save records, app-generated user identifiers, Game Center identifiers, scores, stage progress, purchase entitlement state, and timestamps through Supabase and Apple services.</p>
+        </article>
+        <article>
+          <h3 data-i18n="privacy.adsTitle">Advertising And Tracking</h3>
+          <p data-i18n="privacy.adsText">Neon Eye uses Google AdMob for interstitial ads and optional rewarded ads. Google UMP manages consent where required. iOS tracking that requires permission is controlled by Apple's App Tracking Transparency prompt.</p>
+        </article>
+        <article>
+          <h3 data-i18n="privacy.purchaseTitle">Purchases</h3>
+          <p data-i18n="privacy.purchaseText">In-app purchases are processed by Apple StoreKit. We store entitlement state needed to unlock purchases such as Remove Ads, Battle Pass, Starter Bundle, and coin packs. Apple processes payment information.</p>
+        </article>
+        <article>
+          <h3 data-i18n="privacy.choicesTitle">Your Choices</h3>
+          <p data-i18n="privacy.choicesText">You can manage iOS tracking in Settings, use Google UMP privacy choices where shown, restore purchases through Apple, and contact support for access, correction, deletion, or purchase-support requests.</p>
+        </article>
+        <article>
+          <h3 data-i18n="privacy.sharingTitle">Data Sharing</h3>
+          <p data-i18n="privacy.sharingText">We do not sell personal information. Data is shared with Apple, Google, and Supabase only as needed for App Store distribution, ads, consent, analytics, purchases, Game Center, leaderboards, cloud save, receipt validation, and support.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block premium-band">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="privacy.detailsEyebrow">Details</p>
+        <h2 data-i18n="privacy.detailsTitle">Retention, children, and contact.</h2>
+      </div>
+      <div class="proof-list">
+        <p data-i18n="privacy.retentionText">We retain gameplay, analytics, leaderboard, cloud-save, and entitlement data as long as needed to operate the game, maintain records, prevent abuse, and comply with legal requirements. Third-party services retain data according to their own policies.</p>
+        <p data-i18n="privacy.childrenText">Neon Eye is not directed to children under 13. The app includes age and consent guardrails where required.</p>
+        <p><span data-i18n="privacy.contactText">For privacy, support, correction, deletion, or purchase-support requests, email</span> <a href="mailto:a.alameldien@gmail.com">a.alameldien@gmail.com</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p data-i18n="common.footer">Neon Eye is an independent mobile game by Gaborandi.</p>
+    <nav aria-label="Footer">
+      <a href="#privacy" data-i18n="common.privacy">Privacy</a>
+      <a href="./terms/" data-i18n="common.terms">Terms</a>
+      <a href="./support/" data-i18n="common.support">Support</a>
+    </nav>
+  </footer>
+
+  <script src="./site.js"></script>
+</body>
 </html>
