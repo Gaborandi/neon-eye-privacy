@@ -14,7 +14,7 @@
   <meta name="twitter:title" content="Neon Eye | Precision Timing Game">
   <meta name="twitter:description" content="Precision timing, neon focus, and public privacy details for the independent mobile game.">
   <title>Neon Eye | Precision Timing Game</title>
-  <link rel="icon" href="./assets/neon-eye-icon.png">
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%23041209"/><circle cx="32" cy="32" r="18" fill="none" stroke="%23ff8740" stroke-width="6"/><circle cx="32" cy="32" r="6" fill="%23ff8740"/></svg>'>
   <link rel="stylesheet" href="./assets/site.css">
 </head>
 <body>
@@ -157,8 +157,26 @@
         <p data-i18n="home.lookText">The game should feel focused before the first tap: high contrast, few distractions, and an interface that points the player toward timing, practice, progression, and support.</p>
       </div>
       <figure class="screenshot-panel">
-        <img src="./assets/neon-eye-menu.png" alt="Neon Eye mobile main menu screenshot">
-        <figcaption data-i18n="home.lookCaption">Current mobile menu capture used for launch-site preview.</figcaption>
+        <div class="menu-preview" role="img" aria-label="Stylized Neon Eye mobile menu preview">
+          <div class="menu-preview-top">
+            <span>NEON EYE</span>
+            <span>STAGE 37</span>
+          </div>
+          <div class="menu-preview-eye" aria-hidden="true">
+            <span></span>
+          </div>
+          <div class="menu-preview-score">
+            <strong>PERFECT</strong>
+            <span>00.042s</span>
+          </div>
+          <div class="menu-preview-grid">
+            <span data-i18n="home.modeCampaignTitle">Campaign</span>
+            <span data-i18n="home.modePracticeTitle">Practice</span>
+            <span data-i18n="home.modeFluxTitle">Flux</span>
+            <span data-i18n="common.support">Support</span>
+          </div>
+        </div>
+        <figcaption data-i18n="home.lookCaption">Theme preview rendered directly by the launch site.</figcaption>
       </figure>
     </section>
 
