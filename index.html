@@ -4,11 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#041209">
-  <meta name="description" content="Neon Eye privacy policy and support site for ads, consent, analytics, Game Center, purchases, leaderboards, cloud save, and support.">
-  <meta property="og:title" content="Neon Eye">
-  <meta property="og:description" content="Precision, timing, and neon focus in an independent mobile game.">
+  <meta name="description" content="Neon Eye is an independent precision timing game by Gaborandi with a 100-stage campaign, practice modes, leaderboards, purchases, ads, consent, and clear privacy details.">
+  <link rel="canonical" href="https://gaborandi.github.io/neon-eye-privacy/">
+  <meta property="og:title" content="Neon Eye | Precision Timing Game">
+  <meta property="og:description" content="Precision timing, neon focus, and public privacy details for the independent mobile game.">
   <meta property="og:type" content="website">
-  <title>Neon Eye Privacy Policy</title>
+  <meta property="og:url" content="https://gaborandi.github.io/neon-eye-privacy/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Neon Eye | Precision Timing Game">
+  <meta name="twitter:description" content="Precision timing, neon focus, and public privacy details for the independent mobile game.">
+  <title>Neon Eye | Precision Timing Game</title>
+  <link rel="icon" href="./assets/neon-eye-icon.png">
   <link rel="stylesheet" href="./assets/site.css">
 </head>
 <body>
@@ -21,7 +27,9 @@
     </a>
     <nav class="site-nav" aria-label="Primary">
       <a href="#game" data-i18n="common.game">Game</a>
-      <a href="#privacy" data-i18n="common.privacy">Privacy</a>
+      <a href="#modes" data-i18n="common.modes">Modes</a>
+      <a href="#progress" data-i18n="common.progress">Progress</a>
+      <a href="./privacy/" data-i18n="common.privacy">Privacy</a>
       <a href="./terms/" data-i18n="common.terms">Terms</a>
       <a href="./support/" data-i18n="common.support">Support</a>
     </nav>
@@ -29,15 +37,15 @@
       <span data-i18n="common.language">Language</span>
       <select data-language-select aria-label="Language">
         <option value="en">English</option>
-        <option value="ar">ÿßŸÑÿπÿ±ÿ®Ÿäÿ©</option>
-        <option value="es">Espa√±ol</option>
-        <option value="fr">Fran√ßais</option>
+        <option value="ar">العربية</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
         <option value="de">Deutsch</option>
-        <option value="pt">Portugu√™s</option>
+        <option value="pt">Português</option>
         <option value="it">Italiano</option>
-        <option value="ja">Êó•Êú¨Ë™û</option>
-        <option value="ko">ÌïúÍµ≠Ïñ¥</option>
-        <option value="zh">ÁÆÄ‰Ωì‰∏≠Êñá</option>
+        <option value="ja">日本語</option>
+        <option value="ko">한국어</option>
+        <option value="zh">简体中文</option>
       </select>
     </label>
   </header>
@@ -53,13 +61,13 @@
           campaign.
         </p>
         <div class="hero-actions" aria-label="Primary actions">
-          <a class="button primary" href="#privacy" data-i18n="home.privacyCta">Read privacy policy</a>
-          <a class="button secondary" href="./support/" data-i18n="home.supportCta">Contact support</a>
+          <span class="button primary inert" data-i18n="home.storeCta">App Store link coming soon</span>
+          <a class="button secondary" href="./privacy/" data-i18n="home.privacyCta">Read privacy policy</a>
         </div>
         <dl class="trust-strip" aria-label="Release profile">
-          <div><dt data-i18n="home.promiseOneTitle">Player choice</dt><dd data-i18n="home.promiseOneText">Consent before ads</dd></div>
-          <div><dt data-i18n="home.promiseTwoTitle">Platform controls</dt><dd data-i18n="home.promiseTwoText">ATT and UMP</dd></div>
-          <div><dt data-i18n="home.promiseThreeTitle">Clear support</dt><dd data-i18n="home.promiseThreeText">Privacy and deletion requests</dd></div>
+          <div><dt data-i18n="home.promiseOneTitle">100 stages</dt><dd data-i18n="home.promiseOneText">Campaign built around pressure</dd></div>
+          <div><dt data-i18n="home.promiseTwoTitle">Fast modes</dt><dd data-i18n="home.promiseTwoText">Practice, Flux, and daily play</dd></div>
+          <div><dt data-i18n="home.promiseThreeTitle">Player controls</dt><dd data-i18n="home.promiseThreeText">Consent, privacy, and support</dd></div>
         </dl>
       </div>
 
@@ -70,6 +78,10 @@
             <div class="eye-ring" aria-hidden="true"></div>
             <div class="hit-zone" aria-hidden="true"></div>
             <div class="pulse-line" aria-hidden="true"></div>
+            <button class="timing-demo" type="button" data-timing-target data-i18n-aria="home.demoButtonLabel" aria-label="Try the Neon Eye timing window">
+              <span class="demo-kicker" data-i18n="home.demoKicker">Tap the window</span>
+              <span class="demo-score" data-timing-score data-i18n="home.demoReady">READY</span>
+            </button>
           </div>
         </div>
       </div>
@@ -94,6 +106,60 @@
           <p data-i18n="home.featureThreeText">Ads and online features are documented here, controlled by consent where required, and supported by clear choices.</p>
         </article>
       </div>
+    </section>
+
+    <section id="modes" class="section-block visual-band">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="home.modesEyebrow">Launch modes</p>
+        <h2 data-i18n="home.modesTitle">One input, several kinds of pressure.</h2>
+        <p class="section-lede" data-i18n="home.modesText">Neon Eye keeps the rule simple, then changes the reason you care about each hit: stage progress, warmup, score pressure, cosmetics, and leaderboard attempts.</p>
+      </div>
+      <div class="mode-grid">
+        <article>
+          <span>01</span>
+          <h3 data-i18n="home.modeCampaignTitle">Campaign</h3>
+          <p data-i18n="home.modeCampaignText">A 100-stage path where the timing window tightens and clean hits matter more.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3 data-i18n="home.modePracticeTitle">Practice</h3>
+          <p data-i18n="home.modePracticeText">A low-friction place to feel the rhythm, calibrate input, and build consistency.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3 data-i18n="home.modeFluxTitle">Flux</h3>
+          <p data-i18n="home.modeFluxText">A sharper scoring mode for players who want the same timing language under changing pressure.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3 data-i18n="home.modeMetaTitle">Leaderboard And Cosmetics</h3>
+          <p data-i18n="home.modeMetaText">Optional online ranking and cosmetic progress give clean runs a public and personal record.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="progress" class="section-block premium-band">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="home.progressEyebrow">Built for launch</p>
+        <h2 data-i18n="home.progressTitle">Focused enough to understand, deep enough to return to.</h2>
+      </div>
+      <div class="proof-list">
+        <p data-i18n="home.progressOne">The first screen leads with the actual game surface: Campaign, Practice, Flux, Leaderboard, Cosmetics, and Settings.</p>
+        <p data-i18n="home.progressTwo">Progression is built around campaign stages, medals, daily goals, mastery, and optional leaderboard/cloud-save systems.</p>
+        <p data-i18n="home.progressThree">The launch profile is transparent: ads, consent, ATT, analytics, purchases, support, and deletion requests are documented below.</p>
+      </div>
+    </section>
+
+    <section class="section-block screenshot-section">
+      <div class="screenshot-copy">
+        <p class="eyebrow" data-i18n="home.lookEyebrow">Game look</p>
+        <h2 data-i18n="home.lookTitle">Dark field, hot target, readable choices.</h2>
+        <p data-i18n="home.lookText">The game should feel focused before the first tap: high contrast, few distractions, and an interface that points the player toward timing, practice, progression, and support.</p>
+      </div>
+      <figure class="screenshot-panel">
+        <img src="./assets/neon-eye-menu.png" alt="Neon Eye mobile main menu screenshot">
+        <figcaption data-i18n="home.lookCaption">Current mobile menu capture used for launch-site preview.</figcaption>
+      </figure>
     </section>
 
     <section id="privacy" class="section-block premium-band">
@@ -153,7 +219,7 @@
   <footer class="site-footer">
     <p data-i18n="common.footer">Neon Eye is an independent mobile game by Gaborandi.</p>
     <nav aria-label="Footer">
-      <a href="#privacy" data-i18n="common.privacy">Privacy</a>
+      <a href="./privacy/" data-i18n="common.privacy">Privacy</a>
       <a href="./terms/" data-i18n="common.terms">Terms</a>
       <a href="./support/" data-i18n="common.support">Support</a>
     </nav>
