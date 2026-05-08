@@ -11,6 +11,14 @@ const NEON_I18N = {
       footer: "Neon Eye is an independent mobile game by Gaborandi.",
       translationNote: "Translations are provided for convenience. If a translation differs from the English version, the English version controls.",
     },
+    meta: {
+      homeTitle: "Neon Eye | Privacy & Support",
+      homeDescription: "Neon Eye privacy, terms, support, and player-trust details for ads, consent, analytics, purchases, leaderboards, and cloud save.",
+      termsTitle: "Neon Eye Terms | Gaborandi",
+      termsDescription: "Terms for Neon Eye gameplay, purchases, ads, rewards, online services, leaderboards, and support.",
+      supportTitle: "Neon Eye Support | Gaborandi",
+      supportDescription: "Support for Neon Eye gameplay, purchases, restore purchases, privacy requests, leaderboards, and cloud save.",
+    },
     home: {
       eyebrow: "Precision timing game",
       heroTitle: "Every millisecond has a color.",
@@ -23,6 +31,12 @@ const NEON_I18N = {
       promiseTwoText: "ATT and UMP",
       promiseThreeTitle: "Clear support",
       promiseThreeText: "Privacy and deletion requests",
+      demoKicker: "Tap the window",
+      demoReady: "READY",
+      demoPerfect: "PERFECT",
+      demoGood: "GOOD",
+      demoMiss: "MISS",
+      demoButtonLabel: "Try the Neon Eye timing window",
       systemEyebrow: "The core idea",
       systemTitle: "A small game built around exact timing.",
       featureOneTitle: "Read the eye",
@@ -84,14 +98,16 @@ const NEON_I18N = {
   },
   ar: {
     common: { skip: "تخطي إلى المحتوى", home: "الرئيسية", game: "اللعبة", privacy: "الخصوصية", terms: "الشروط", support: "الدعم", language: "اللغة", footer: "Neon Eye لعبة هاتف مستقلة من Gaborandi.", translationNote: "تتوفر الترجمات للتسهيل. إذا اختلفت الترجمة عن النسخة الإنجليزية، تعتمد النسخة الإنجليزية." },
-    home: { eyebrow: "لعبة توقيت دقيقة", heroTitle: "كل جزء من الثانية له لون.", heroText: "Neon Eye لعبة توقيت مركزة تقرأ فيها العين المتحركة، تضرب نافذة التوقيت المثالية، وتتقدم في حملة من 100 مرحلة.", privacyCta: "اقرأ سياسة الخصوصية", supportCta: "تواصل مع الدعم", promiseOneTitle: "اختيار اللاعب", promiseOneText: "الموافقة قبل الإعلانات", promiseTwoTitle: "تحكم المنصة", promiseTwoText: "ATT و UMP", promiseThreeTitle: "دعم واضح", promiseThreeText: "طلبات الخصوصية والحذف", systemEyebrow: "الفكرة الأساسية", systemTitle: "لعبة صغيرة مبنية حول توقيت دقيق.", featureOneTitle: "اقرأ العين", featureOneText: "الهدف بسيط، لكن الضغط يأتي من الحركة والإيقاع ونافذة التوقيت التي تضيق.", featureTwoTitle: "اصعد في الحملة", featureTwoText: "التقدم والميداليات وأهداف الإتقان والتحديات تعطي كل ضربة نظيفة قيمة.", featureThreeTitle: "احترام اللاعب", featureThreeText: "الإعلانات والميزات المتصلة موثقة هنا وتخضع للموافقة عند الحاجة." },
+    meta: { homeTitle: "Neon Eye | الخصوصية والدعم", homeDescription: "تفاصيل الخصوصية والشروط والدعم وثقة اللاعب في Neon Eye للإعلانات والموافقة والتحليلات والمشتريات ولوحات الصدارة والحفظ السحابي.", termsTitle: "شروط Neon Eye | Gaborandi", termsDescription: "شروط Neon Eye للعب والمشتريات والإعلانات والمكافآت والخدمات المتصلة ولوحات الصدارة والدعم.", supportTitle: "دعم Neon Eye | Gaborandi", supportDescription: "دعم Neon Eye للعب والمشتريات واستعادة الشراء وطلبات الخصوصية ولوحات الصدارة والحفظ السحابي." },
+    home: { eyebrow: "لعبة توقيت دقيقة", heroTitle: "كل جزء من الثانية له لون.", heroText: "Neon Eye لعبة توقيت مركزة تقرأ فيها العين المتحركة، تضرب نافذة التوقيت المثالية، وتتقدم في حملة من 100 مرحلة.", privacyCta: "اقرأ سياسة الخصوصية", supportCta: "تواصل مع الدعم", promiseOneTitle: "اختيار اللاعب", promiseOneText: "الموافقة قبل الإعلانات", promiseTwoTitle: "تحكم المنصة", promiseTwoText: "ATT و UMP", promiseThreeTitle: "دعم واضح", promiseThreeText: "طلبات الخصوصية والحذف", demoKicker: "اضغط النافذة", demoReady: "جاهز", demoPerfect: "مثالي", demoGood: "جيد", demoMiss: "خطأ", demoButtonLabel: "جرّب نافذة توقيت Neon Eye", systemEyebrow: "الفكرة الأساسية", systemTitle: "لعبة صغيرة مبنية حول توقيت دقيق.", featureOneTitle: "اقرأ العين", featureOneText: "الهدف بسيط، لكن الضغط يأتي من الحركة والإيقاع ونافذة التوقيت التي تضيق.", featureTwoTitle: "اصعد في الحملة", featureTwoText: "التقدم والميداليات وأهداف الإتقان والتحديات تعطي كل ضربة نظيفة قيمة.", featureThreeTitle: "احترام اللاعب", featureThreeText: "الإعلانات والميزات المتصلة موثقة هنا وتخضع للموافقة عند الحاجة." },
     privacy: { eyebrow: "ثقة اللاعب", title: "سياسة خصوصية Neon Eye", updated: "آخر تحديث: 7 مايو 2026", summary: "يتضمن إصدار الإطلاق الإعلانات، موافقة Google UMP، مطالبة Apple ATT، التحليلات، Game Center، مشتريات Apple StoreKit، لوحات صدارة Supabase، الحفظ السحابي، التحقق من الإيصالات، إزالة الإعلانات، الإعلانات المحدودة أو غير المخصصة، الدعم، وطلبات الحذف.", gameplayTitle: "اللعب واستخدام التطبيق", gameplayText: "قد نعالج المراحل، النقاط، الميداليات، مدة الجلسة، وضع اللعب، التحديات، التقدم، الإعدادات، تفاعلات الإعلانات، الأخطاء، التشخيصات، وبيانات الأداء.", onlineTitle: "الميزات المتصلة", onlineText: "قد تعالج Neon Eye بيانات لوحات الصدارة، الحفظ السحابي، معرفات التطبيق، معرفات Game Center، النقاط، التقدم، حالة المشتريات، والطوابع الزمنية عبر Supabase وApple.", adsTitle: "الإعلانات والتتبع", adsText: "تستخدم Neon Eye Google AdMob للإعلانات وGoogle UMP للموافقة حيث يلزم. التتبع على iOS يخضع لمطالبة Apple ATT.", purchaseTitle: "المشتريات", purchaseText: "تتم المشتريات داخل التطبيق عبر Apple StoreKit ونحفظ حالة الاستحقاق لفتح العناصر مثل Remove Ads والحزم.", choicesTitle: "اختياراتك", choicesText: "يمكنك إدارة التتبع من إعدادات iOS، واستخدام خيارات خصوصية Google UMP، واستعادة المشتريات عبر Apple، والتواصل معنا لطلبات الوصول أو التصحيح أو الحذف.", sharingTitle: "مشاركة البيانات", sharingText: "لا نبيع المعلومات الشخصية. تتم المشاركة مع Apple وGoogle وSupabase فقط لتشغيل اللعبة والإعلانات والموافقة والتحليلات والمشتريات ولوحات الصدارة والحفظ والدعم.", detailsEyebrow: "تفاصيل", detailsTitle: "الاحتفاظ والطفل والتواصل.", retentionText: "نحتفظ بالبيانات طالما كان ذلك مطلوبًا لتشغيل اللعبة، حفظ السجلات، منع الإساءة، والامتثال للقانون.", childrenText: "Neon Eye ليست موجهة للأطفال دون 13 عامًا وتتضمن ضوابط عمر وموافقة عند الحاجة.", contactText: "لطلبات الخصوصية أو الدعم أو التصحيح أو الحذف أو دعم المشتريات، راسل" },
     terms: { eyebrow: "شروط الاستخدام", title: "شروط Neon Eye", updated: "آخر تحديث: 7 مايو 2026", useTitle: "استخدام التطبيق", useText: "Neon Eye مقدمة للترفيه الشخصي. لا تسيء استخدام التطبيق أو تتلاعب بالمشتريات أو اللوحات أو الحفظ أو الإعلانات أو المكافآت.", purchaseTitle: "المشتريات", purchaseText: "تتم المشتريات عبر Apple وتخضع للاستعادة والاسترداد من خلال أنظمة Apple.", onlineTitle: "الميزات المتصلة", onlineText: "قد تعتمد لوحات الصدارة والحفظ السحابي والتحليلات والإعلانات على الشبكة وحالة الموافقة وخدمات الجهات الخارجية.", adsTitle: "الإعلانات والمكافآت", adsText: "الإعلانات والفيديوهات المكافئة اختيارية وتخضع للموافقة والمنطقة والتوفر وقواعد المنصة.", contactTitle: "الدعم", contactText: "للدعم، تواصل عبر" },
     support: { eyebrow: "الدعم", title: "دعم Neon Eye", intro: "للمساعدة في اللعب أو الشراء أو الاستعادة أو الخصوصية أو لوحات الصدارة أو الحفظ السحابي، راسل البريد أدناه.", includeTitle: "ما الذي يجب تضمينه", includeText: "اذكر إصدار التطبيق، طراز الجهاز، إصدار iOS، ووصفًا قصيرًا للمشكلة. لا ترسل بيانات بطاقة الدفع.", restoreTitle: "المشتريات والاستعادة", restoreText: "استخدم Restore Purchases داخل Neon Eye. إذا لم تعمل، اذكر المنتج ومنطقة حساب Apple.", privacyTitle: "طلبات الخصوصية", privacyText: "لطلبات الوصول أو التصحيح أو الحذف أو خيارات الموافقة، أرسل معلومات كافية لتحديد سجل اللاعب داخل التطبيق." },
   },
   es: {
     common: { skip: "Saltar al contenido", home: "Inicio", game: "Juego", privacy: "Privacidad", terms: "Términos", support: "Soporte", language: "Idioma", footer: "Neon Eye es un juego móvil independiente de Gaborandi.", translationNote: "Las traducciones se ofrecen por comodidad. Si difieren de la versión en inglés, prevalece la versión en inglés." },
-    home: { eyebrow: "Juego de precisión", heroTitle: "Cada milisegundo tiene color.", heroText: "Neon Eye es un juego móvil de timing sobre leer un ojo en movimiento, acertar la ventana perfecta y avanzar por una campaña de 100 fases.", privacyCta: "Leer privacidad", supportCta: "Contactar soporte", promiseOneTitle: "Elección del jugador", promiseOneText: "Consentimiento antes de anuncios", promiseTwoTitle: "Controles de plataforma", promiseTwoText: "ATT y UMP", promiseThreeTitle: "Soporte claro", promiseThreeText: "Privacidad y borrado", systemEyebrow: "La idea central", systemTitle: "Un juego pequeño construido sobre timing exacto.", featureOneTitle: "Lee el ojo", featureOneText: "El objetivo es simple, pero la presión viene del movimiento, el ritmo y la ventana perfecta más estrecha.", featureTwoTitle: "Sube la campaña", featureTwoText: "Progreso, medallas, maestría y desafíos dan propósito a cada golpe limpio.", featureThreeTitle: "Respeta al jugador", featureThreeText: "Los anuncios y funciones online se documentan aquí y se controlan con consentimiento cuando corresponde." },
+    meta: { homeTitle: "Neon Eye | Privacidad y soporte", homeDescription: "Privacidad, términos, soporte y detalles de confianza de Neon Eye para anuncios, consentimiento, analíticas, compras, clasificaciones y guardado en la nube.", termsTitle: "Términos de Neon Eye | Gaborandi", termsDescription: "Términos de Neon Eye para juego, compras, anuncios, recompensas, servicios online, clasificaciones y soporte.", supportTitle: "Soporte de Neon Eye | Gaborandi", supportDescription: "Soporte de Neon Eye para juego, compras, restauración, privacidad, clasificaciones y guardado en la nube." },
+    home: { eyebrow: "Juego de precisión", heroTitle: "Cada milisegundo tiene color.", heroText: "Neon Eye es un juego móvil de timing sobre leer un ojo en movimiento, acertar la ventana perfecta y avanzar por una campaña de 100 fases.", privacyCta: "Leer privacidad", supportCta: "Contactar soporte", promiseOneTitle: "Elección del jugador", promiseOneText: "Consentimiento antes de anuncios", promiseTwoTitle: "Controles de plataforma", promiseTwoText: "ATT y UMP", promiseThreeTitle: "Soporte claro", promiseThreeText: "Privacidad y borrado", demoKicker: "Toca la ventana", demoReady: "LISTO", demoPerfect: "PERFECTO", demoGood: "BIEN", demoMiss: "FALLO", demoButtonLabel: "Probar la ventana de timing de Neon Eye", systemEyebrow: "La idea central", systemTitle: "Un juego pequeño construido sobre timing exacto.", featureOneTitle: "Lee el ojo", featureOneText: "El objetivo es simple, pero la presión viene del movimiento, el ritmo y la ventana perfecta más estrecha.", featureTwoTitle: "Sube la campaña", featureTwoText: "Progreso, medallas, maestría y desafíos dan propósito a cada golpe limpio.", featureThreeTitle: "Respeta al jugador", featureThreeText: "Los anuncios y funciones online se documentan aquí y se controlan con consentimiento cuando corresponde." },
     privacy: { eyebrow: "Confianza del jugador", title: "Política de privacidad de Neon Eye", updated: "Última actualización: 7 de mayo de 2026", summary: "El lanzamiento incluye anuncios, consentimiento Google UMP, Apple ATT, analíticas, Game Center, Apple StoreKit, clasificaciones y guardado en Supabase, validación de recibos, Remove Ads, anuncios limitados/no personalizados, soporte y solicitudes de borrado.", gameplayTitle: "Juego y uso", gameplayText: "Podemos procesar fases, puntuaciones, medallas, duración, modo, progreso, ajustes, interacciones con anuncios, errores, diagnósticos y rendimiento.", onlineTitle: "Funciones online", onlineText: "Neon Eye puede procesar clasificaciones, guardado en la nube, identificadores, Game Center, puntuaciones, progreso, compras y marcas de tiempo con Supabase y Apple.", adsTitle: "Publicidad y seguimiento", adsText: "Neon Eye usa Google AdMob y Google UMP. El seguimiento en iOS que requiere permiso se controla con Apple ATT.", purchaseTitle: "Compras", purchaseText: "Las compras se procesan con Apple StoreKit. Guardamos derechos necesarios para desbloquear Remove Ads, Battle Pass, Starter Bundle y monedas.", choicesTitle: "Tus opciones", choicesText: "Puedes gestionar ATT en iOS, usar opciones de Google UMP, restaurar compras con Apple y contactar soporte para acceso, corrección o borrado.", sharingTitle: "Compartición", sharingText: "No vendemos información personal. Se comparte con Apple, Google y Supabase solo para operar el juego y sus servicios.", detailsEyebrow: "Detalles", detailsTitle: "Retención, menores y contacto.", retentionText: "Retenemos datos mientras sean necesarios para operar el juego, mantener registros, evitar abuso y cumplir la ley.", childrenText: "Neon Eye no está dirigido a menores de 13 años.", contactText: "Para privacidad, soporte, corrección, borrado o compras, escribe a" },
     terms: { eyebrow: "Términos de uso", title: "Términos de Neon Eye", updated: "Última actualización: 7 de mayo de 2026", useTitle: "Uso de la app", useText: "Neon Eye se ofrece para entretenimiento personal. No manipules compras, clasificaciones, guardados, anuncios, recompensas ni protecciones.", purchaseTitle: "Compras", purchaseText: "Las compras las procesa Apple y están sujetas a sus sistemas de restauración y reembolso.", onlineTitle: "Funciones online", onlineText: "Clasificaciones, guardado, analíticas y anuncios pueden depender de red, consentimiento y terceros.", adsTitle: "Anuncios y recompensas", adsText: "Los anuncios y vídeos recompensados dependen de consentimiento, región, disponibilidad y reglas de plataforma.", contactTitle: "Soporte", contactText: "Para soporte, contacta a" },
     support: { eyebrow: "Soporte", title: "Soporte de Neon Eye", intro: "Para juego, compras, restauración, privacidad, clasificaciones o nube, escribe al correo siguiente.", includeTitle: "Qué incluir", includeText: "Incluye versión de app, dispositivo, iOS y una breve descripción. No envíes datos de tarjeta.", restoreTitle: "Compras y restauración", restoreText: "Usa Restore Purchases dentro de Neon Eye. Si falla, indica producto y región de Apple.", privacyTitle: "Solicitudes de privacidad", privacyText: "Para acceso, corrección, borrado o consentimiento, incluye información suficiente para identificar tu registro." },
@@ -120,6 +136,36 @@ for (const lang of ["fr", "de", "pt", "it", "ja", "ko", "zh"]) {
         ja: "Neon Eye は Gaborandi による独立系モバイルゲームです。",
         ko: "Neon Eye는 Gaborandi의 독립 모바일 게임입니다.",
         zh: "Neon Eye 是 Gaborandi 制作的独立手机游戏。",
+      }[lang],
+    },
+    meta: {
+      ...NEON_I18N.en.meta,
+      homeTitle: {
+        fr: "Neon Eye | Confidentialité et assistance",
+        de: "Neon Eye | Datenschutz & Support",
+        pt: "Neon Eye | Privacidade e suporte",
+        it: "Neon Eye | Privacy e supporto",
+        ja: "Neon Eye | プライバシーとサポート",
+        ko: "Neon Eye | 개인정보 및 지원",
+        zh: "Neon Eye | 隐私与支持",
+      }[lang],
+      termsTitle: {
+        fr: "Conditions de Neon Eye | Gaborandi",
+        de: "Neon Eye Bedingungen | Gaborandi",
+        pt: "Termos do Neon Eye | Gaborandi",
+        it: "Termini di Neon Eye | Gaborandi",
+        ja: "Neon Eye 利用規約 | Gaborandi",
+        ko: "Neon Eye 약관 | Gaborandi",
+        zh: "Neon Eye 条款 | Gaborandi",
+      }[lang],
+      supportTitle: {
+        fr: "Assistance Neon Eye | Gaborandi",
+        de: "Neon Eye Support | Gaborandi",
+        pt: "Suporte Neon Eye | Gaborandi",
+        it: "Supporto Neon Eye | Gaborandi",
+        ja: "Neon Eye サポート | Gaborandi",
+        ko: "Neon Eye 지원 | Gaborandi",
+        zh: "Neon Eye 支持 | Gaborandi",
       }[lang],
     },
     home: {
@@ -151,6 +197,12 @@ for (const lang of ["fr", "de", "pt", "it", "ja", "ko", "zh"]) {
         ko: "지원 문의",
         zh: "联系支持",
       }[lang],
+      demoKicker: { fr: "Touchez la fenêtre", de: "Fenster tippen", pt: "Toque na janela", it: "Tocca la finestra", ja: "窓をタップ", ko: "창을 탭하세요", zh: "点击窗口" }[lang],
+      demoReady: { fr: "PRÊT", de: "BEREIT", pt: "PRONTO", it: "PRONTO", ja: "READY", ko: "준비", zh: "准备" }[lang],
+      demoPerfect: { fr: "PARFAIT", de: "PERFEKT", pt: "PERFEITO", it: "PERFETTO", ja: "PERFECT", ko: "완벽", zh: "完美" }[lang],
+      demoGood: { fr: "BIEN", de: "GUT", pt: "BOM", it: "BENE", ja: "GOOD", ko: "좋음", zh: "不错" }[lang],
+      demoMiss: { fr: "RATÉ", de: "DANEBEN", pt: "ERRO", it: "MANCATO", ja: "MISS", ko: "실패", zh: "错过" }[lang],
+      demoButtonLabel: { fr: "Essayer la fenêtre de timing de Neon Eye", de: "Das Neon Eye Timing-Fenster ausprobieren", pt: "Experimentar a janela de timing do Neon Eye", it: "Prova la finestra di tempismo di Neon Eye", ja: "Neon Eye のタイミング窓を試す", ko: "Neon Eye 타이밍 창 시도", zh: "试试 Neon Eye 的计时窗口" }[lang],
     },
     privacy: {
       ...NEON_I18N.en.privacy,
@@ -202,6 +254,12 @@ for (const lang of ["fr", "de", "pt", "it", "ja", "ko", "zh"]) {
 
 const FALLBACK_LANG = "en";
 const RTL_LANGS = new Set(["ar"]);
+const STORAGE_KEY = "neon-eye-site-language";
+const PAGE_META = {
+  home: { title: "meta.homeTitle", description: "meta.homeDescription" },
+  terms: { title: "meta.termsTitle", description: "meta.termsDescription" },
+  support: { title: "meta.supportTitle", description: "meta.supportDescription" },
+};
 
 function getNestedValue(source, path) {
   return path.split(".").reduce((obj, key) => {
@@ -210,39 +268,165 @@ function getNestedValue(source, path) {
   }, source);
 }
 
+function storageGet(key) {
+  try {
+    return window.localStorage.getItem(key);
+  } catch (_) {
+    return null;
+  }
+}
+
+function storageSet(key, value) {
+  try {
+    window.localStorage.setItem(key, value);
+  } catch (_) {
+    // Private browsing and restricted WebViews can disable storage.
+  }
+}
+
+function pageKind() {
+  const path = window.location.pathname;
+  if (path.includes("/terms/")) return "terms";
+  if (path.includes("/support/")) return "support";
+  return "home";
+}
+
+function canonicalUrl() {
+  const url = new URL(window.location.href);
+  url.search = "";
+  url.hash = "";
+  return url.toString();
+}
+
 function requestedLanguage() {
   const params = new URLSearchParams(window.location.search);
   const fromUrl = params.get("lang");
   if (fromUrl && NEON_I18N[fromUrl]) return fromUrl;
-  const saved = window.localStorage.getItem("neon-eye-site-language");
+
+  const saved = storageGet(STORAGE_KEY);
   if (saved && NEON_I18N[saved]) return saved;
-  const browserLang = (navigator.language || "").slice(0, 2);
+
+  const browserLang = (navigator.language || "").slice(0, 2).toLowerCase();
   return NEON_I18N[browserLang] ? browserLang : FALLBACK_LANG;
 }
 
-function applyLanguage(lang) {
-  const dictionary = NEON_I18N[lang] || NEON_I18N[FALLBACK_LANG];
-  document.documentElement.lang = lang;
-  document.body.dir = RTL_LANGS.has(lang) ? "rtl" : "ltr";
+function updateUrlLanguage(lang) {
+  if (!window.history || !window.history.replaceState) return;
+  const url = new URL(window.location.href);
+  url.searchParams.set("lang", lang);
+  window.history.replaceState({}, "", url);
+}
+
+function setMetaByName(name, content) {
+  const node = document.querySelector(`meta[name="${name}"]`);
+  if (node && content) node.setAttribute("content", content);
+}
+
+function setMetaByProperty(property, content) {
+  const node = document.querySelector(`meta[property="${property}"]`);
+  if (node && content) node.setAttribute("content", content);
+}
+
+function updatePageMetadata(dictionary) {
+  const spec = PAGE_META[pageKind()] || PAGE_META.home;
+  const fallback = NEON_I18N[FALLBACK_LANG];
+  const title = getNestedValue(dictionary, spec.title) || getNestedValue(fallback, spec.title);
+  const description = getNestedValue(dictionary, spec.description) || getNestedValue(fallback, spec.description);
+  const canonical = canonicalUrl();
+
+  if (title) document.title = title;
+  setMetaByName("description", description);
+  setMetaByProperty("og:title", title);
+  setMetaByProperty("og:description", description);
+  setMetaByProperty("og:url", canonical);
+  setMetaByName("twitter:title", title);
+  setMetaByName("twitter:description", description);
+
+  const canonicalLink = document.querySelector('link[rel="canonical"]');
+  if (canonicalLink) canonicalLink.setAttribute("href", canonical);
+}
+
+function translateKey(dictionary, key) {
+  return getNestedValue(dictionary, key) || getNestedValue(NEON_I18N[FALLBACK_LANG], key);
+}
+
+function applyLanguage(lang, options = {}) {
+  const safeLang = NEON_I18N[lang] ? lang : FALLBACK_LANG;
+  const dictionary = NEON_I18N[safeLang];
+  const direction = RTL_LANGS.has(safeLang) ? "rtl" : "ltr";
+
+  document.documentElement.lang = safeLang;
+  document.documentElement.dir = direction;
+  document.body.dir = direction;
+
   document.querySelectorAll("[data-i18n]").forEach((node) => {
-    const key = node.getAttribute("data-i18n");
-    const value = getNestedValue(dictionary, key) || getNestedValue(NEON_I18N[FALLBACK_LANG], key);
+    const value = translateKey(dictionary, node.getAttribute("data-i18n"));
     if (value) node.textContent = value;
   });
-  document.querySelectorAll("[data-language-select]").forEach((select) => {
-    select.value = lang;
-  });
-  window.localStorage.setItem("neon-eye-site-language", lang);
 
-  const path = window.location.pathname;
-  if (path.includes("/terms/")) document.title = dictionary.terms?.title || NEON_I18N.en.terms.title;
-  else if (path.includes("/support/")) document.title = dictionary.support?.title || NEON_I18N.en.support.title;
-  else document.title = dictionary.privacy?.title || NEON_I18N.en.privacy.title;
+  document.querySelectorAll("[data-i18n-aria]").forEach((node) => {
+    const value = translateKey(dictionary, node.getAttribute("data-i18n-aria"));
+    if (value) node.setAttribute("aria-label", value);
+  });
+
+  document.querySelectorAll("[data-language-select]").forEach((select) => {
+    select.value = safeLang;
+  });
+
+  storageSet(STORAGE_KEY, safeLang);
+  if (options.updateUrl) updateUrlLanguage(safeLang);
+  updatePageMetadata(dictionary);
+}
+
+function timingLabel(key) {
+  const lang = document.documentElement.lang || FALLBACK_LANG;
+  const dictionary = NEON_I18N[lang] || NEON_I18N[FALLBACK_LANG];
+  return translateKey(dictionary, key) || key;
+}
+
+function initTimingDemo() {
+  const target = document.querySelector("[data-timing-target]");
+  const score = document.querySelector("[data-timing-score]");
+  if (!target || !score) return;
+
+  const cycleMs = 3400;
+  let resetTimer = 0;
+
+  target.addEventListener("click", () => {
+    const phase = (performance.now() % cycleMs) / cycleMs;
+    const distance = Math.abs(phase - 0.5);
+    let outcome = "miss";
+    let label = "home.demoMiss";
+
+    if (distance < 0.07) {
+      outcome = "perfect";
+      label = "home.demoPerfect";
+    } else if (distance < 0.18) {
+      outcome = "good";
+      label = "home.demoGood";
+    }
+
+    score.textContent = timingLabel(label);
+    target.dataset.outcome = outcome;
+    target.classList.remove("timing-hit");
+    void target.offsetWidth;
+    target.classList.add("timing-hit");
+
+    window.clearTimeout(resetTimer);
+    resetTimer = window.setTimeout(() => {
+      target.dataset.outcome = "ready";
+      score.textContent = timingLabel("home.demoReady");
+    }, 1300);
+  });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   applyLanguage(requestedLanguage());
+  initTimingDemo();
+
   document.querySelectorAll("[data-language-select]").forEach((select) => {
-    select.addEventListener("change", (event) => applyLanguage(event.target.value));
+    select.addEventListener("change", (event) => {
+      applyLanguage(event.target.value, { updateUrl: true });
+    });
   });
 });
