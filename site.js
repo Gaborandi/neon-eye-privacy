@@ -15,7 +15,7 @@ const NEON_I18N = {
     },
     meta: {
       homeTitle: "Neon Eye | Precision Timing Game",
-      homeDescription: "Neon Eye is an independent precision timing game by Gaborandi with a 100-stage campaign, Zen and Flux modes, leaderboards, purchases, ads, consent, and clear privacy details.",
+      homeDescription: "Neon Eye is an independent premium precision timing game by Gaborandi with a 100-stage campaign, Zen and Flux modes, leaderboards, purchases, ads, consent, and clear privacy details.",
       privacyTitle: "Neon Eye Privacy Policy | Gaborandi",
       privacyDescription: "Privacy policy for Neon Eye ads, analytics, consent, purchases, Game Center, leaderboards, cloud save, support, and deletion requests.",
       termsTitle: "Neon Eye Terms | Gaborandi",
@@ -25,8 +25,8 @@ const NEON_I18N = {
     },
     home: {
       eyebrow: "Precision timing game",
-      heroTitle: "Every millisecond has a color.",
-      heroText: "Neon Eye is a focused mobile timing game about reading a moving eye, striking the perfect window, and pushing deeper through a 100-stage campaign.",
+      heroTitle: "Neon Eye",
+      heroText: "Read the ring, strike the perfect window, and push deeper through a 100-stage campaign built for clean focus and rising pressure.",
       storeCta: "App Store link coming soon",
       privacyCta: "Read privacy policy",
       supportCta: "Contact support",
@@ -42,6 +42,8 @@ const NEON_I18N = {
       demoGood: "GOOD",
       demoMiss: "MISS",
       demoButtonLabel: "Try the Neon Eye timing window",
+      heroShotKicker: "Campaign gameplay",
+      heroShotTitle: "Read the ring. Hit the instant.",
       systemEyebrow: "The core idea",
       systemTitle: "A small game built around exact timing.",
       featureOneTitle: "Read the eye",
@@ -143,6 +145,9 @@ const NEON_I18N = {
 };
 
 Object.assign(NEON_I18N.ar.home, {
+  heroTitle: "Neon Eye",
+  heroShotKicker: "لعب الحملة",
+  heroShotTitle: "اقرأ الحلقة. اضرب اللحظة.",
   promiseTwoText: "Zen وFlux ولعب يومي",
   modePracticeTitle: "Zen",
   modePracticeText: "مكان أقل ضغطًا لبناء الإيقاع والثبات.",
@@ -158,6 +163,9 @@ Object.assign(NEON_I18N.ar.meta, {
 });
 
 Object.assign(NEON_I18N.es.home, {
+  heroTitle: "Neon Eye",
+  heroShotKicker: "Juego de campaña",
+  heroShotTitle: "Lee el anillo. Golpea el instante.",
   promiseTwoText: "Zen, Flux y juego diario",
   modePracticeTitle: "Zen",
   modePracticeText: "Un lugar de menor presión para sentir el ritmo y ganar consistencia.",
@@ -285,23 +293,7 @@ for (const lang of ["fr", "de", "pt", "it", "ja", "ko", "zh", "ru", "tr", "hi", 
     },
     home: {
       ...NEON_I18N.en.home,
-      heroTitle: {
-        fr: "Chaque milliseconde a une couleur.",
-        de: "Jede Millisekunde hat eine Farbe.",
-        pt: "Cada milissegundo tem uma cor.",
-        it: "Ogni millisecondo ha un colore.",
-        ja: "1ミリ秒ごとに色がある。",
-        ko: "모든 밀리초에는 색이 있습니다.",
-        zh: "每一毫秒都有颜色。",
-        ru: "У каждой миллисекунды есть цвет.",
-        tr: "Her milisaniyenin bir rengi var.",
-        hi: "हर मिलीसेकंड का अपना रंग है।",
-        id: "Setiap milidetik punya warna.",
-        nl: "Elke milliseconde heeft een kleur.",
-        pl: "Każda milisekunda ma kolor.",
-        sv: "Varje millisekund har en färg.",
-        vi: "Mỗi mili giây đều có một màu.",
-      }[lang],
+      heroTitle: "Neon Eye",
       privacyCta: {
         fr: "Lire la confidentialité",
         de: "Datenschutz lesen",
@@ -335,6 +327,40 @@ for (const lang of ["fr", "de", "pt", "it", "ja", "ko", "zh", "ru", "tr", "hi", 
         pl: "Kontakt z pomocą",
         sv: "Kontakta support",
         vi: "Liên hệ hỗ trợ",
+      }[lang],
+      heroShotKicker: {
+        fr: "Gameplay Campagne",
+        de: "Kampagnen-Gameplay",
+        pt: "Gameplay da Campanha",
+        it: "Gameplay Campagna",
+        ja: "キャンペーン gameplay",
+        ko: "캠페인 플레이",
+        zh: "战役玩法",
+        ru: "Геймплей кампании",
+        tr: "Campaign oynanışı",
+        hi: "Campaign गेमप्ले",
+        id: "Gameplay Campaign",
+        nl: "Campagne-gameplay",
+        pl: "Rozgrywka kampanii",
+        sv: "Campaign-spel",
+        vi: "Gameplay Campaign",
+      }[lang],
+      heroShotTitle: {
+        fr: "Lisez l'anneau. Frappez l'instant.",
+        de: "Lies den Ring. Triff den Moment.",
+        pt: "Leia o anel. Acerte o instante.",
+        it: "Leggi l'anello. Colpisci l'istante.",
+        ja: "リングを読み、瞬間を打つ。",
+        ko: "링을 읽고 순간을 맞히세요.",
+        zh: "读懂圆环。击中瞬间。",
+        ru: "Читай кольцо. Попади в момент.",
+        tr: "Halkayı oku. Anı yakala.",
+        hi: "रिंग पढ़ें। सही पल पर वार करें।",
+        id: "Baca cincin. Tepat di saatnya.",
+        nl: "Lees de ring. Raak het moment.",
+        pl: "Czytaj pierścień. Traf w moment.",
+        sv: "Läs ringen. Träffa ögonblicket.",
+        vi: "Đọc vòng. Chạm đúng khoảnh khắc.",
       }[lang],
       demoKicker: { fr: "Touchez la fenêtre", de: "Fenster tippen", pt: "Toque na janela", it: "Tocca la finestra", ja: "窓をタップ", ko: "창을 탭하세요", zh: "点击窗口", ru: "Нажмите окно", tr: "Pencereye dokun", hi: "विंडो टैप करें", id: "Ketuk jendela", nl: "Tik het venster", pl: "Dotknij okna", sv: "Tryck i fönstret", vi: "Chạm cửa sổ" }[lang],
       demoReady: { fr: "PRÊT", de: "BEREIT", pt: "PRONTO", it: "PRONTO", ja: "READY", ko: "준비", zh: "准备", ru: "ГОТОВО", tr: "HAZIR", hi: "तैयार", id: "SIAP", nl: "KLAAR", pl: "GOTOWE", sv: "REDO", vi: "SẴN SÀNG" }[lang],
@@ -555,51 +581,8 @@ function applyLanguage(lang, options = {}) {
   updatePageMetadata(dictionary);
 }
 
-function timingLabel(key) {
-  const lang = document.documentElement.lang || FALLBACK_LANG;
-  const dictionary = NEON_I18N[lang] || NEON_I18N[FALLBACK_LANG];
-  return translateKey(dictionary, key) || key;
-}
-
-function initTimingDemo() {
-  const target = document.querySelector("[data-timing-target]");
-  const score = document.querySelector("[data-timing-score]");
-  if (!target || !score) return;
-
-  const cycleMs = 3400;
-  let resetTimer = 0;
-
-  target.addEventListener("click", () => {
-    const phase = (performance.now() % cycleMs) / cycleMs;
-    const distance = Math.abs(phase - 0.5);
-    let outcome = "miss";
-    let label = "home.demoMiss";
-
-    if (distance < 0.07) {
-      outcome = "perfect";
-      label = "home.demoPerfect";
-    } else if (distance < 0.18) {
-      outcome = "good";
-      label = "home.demoGood";
-    }
-
-    score.textContent = timingLabel(label);
-    target.dataset.outcome = outcome;
-    target.classList.remove("timing-hit");
-    void target.offsetWidth;
-    target.classList.add("timing-hit");
-
-    window.clearTimeout(resetTimer);
-    resetTimer = window.setTimeout(() => {
-      target.dataset.outcome = "ready";
-      score.textContent = timingLabel("home.demoReady");
-    }, 1300);
-  });
-}
-
 document.addEventListener("DOMContentLoaded", () => {
   applyLanguage(requestedLanguage());
-  initTimingDemo();
 
   document.querySelectorAll("[data-language-select]").forEach((select) => {
     select.addEventListener("change", (event) => {
