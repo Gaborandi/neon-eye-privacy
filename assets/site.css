@@ -420,6 +420,74 @@ body[dir="rtl"] ul {
   background: linear-gradient(90deg, transparent, var(--cyan), var(--orange), transparent);
 }
 
+.timing-demo {
+  position: absolute;
+  left: 50%;
+  bottom: 3.8%;
+  z-index: 3;
+  display: grid;
+  gap: 2px;
+  place-items: center;
+  width: min(72%, 220px);
+  min-height: 52px;
+  border: 1px solid rgba(82, 240, 255, 0.34);
+  border-radius: 8px;
+  color: var(--ink);
+  background: rgba(3, 12, 9, 0.82);
+  box-shadow: 0 0 28px rgba(82, 240, 255, 0.12);
+  cursor: pointer;
+  font: inherit;
+  transform: translateX(-50%);
+}
+
+.timing-demo:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 3px;
+}
+
+.timing-demo:hover {
+  border-color: var(--orange);
+}
+
+.timing-demo[data-outcome="perfect"] {
+  border-color: var(--gold);
+  box-shadow: 0 0 34px rgba(255, 210, 138, 0.34);
+}
+
+.timing-demo[data-outcome="good"] {
+  border-color: var(--cyan);
+  box-shadow: 0 0 30px rgba(82, 240, 255, 0.24);
+}
+
+.timing-demo[data-outcome="miss"] {
+  border-color: rgba(255, 135, 64, 0.7);
+}
+
+.demo-kicker,
+.demo-score {
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.demo-kicker {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.demo-score {
+  color: var(--cyan);
+  font-size: 18px;
+  font-weight: 950;
+  text-shadow: 0 0 16px rgba(82, 240, 255, 0.4);
+}
+
+.timing-demo[data-outcome="perfect"] .demo-score {
+  color: var(--gold);
+  text-shadow: 0 0 16px rgba(255, 210, 138, 0.56);
+}
+
 .section-block {
   padding: 72px 0;
 }
@@ -570,6 +638,10 @@ body[dir="rtl"] .proof-list p {
   .hit-zone::after {
     animation: targetPulse 2.6s ease-in-out infinite;
   }
+
+  .timing-demo.timing-hit {
+    animation: timingPress 280ms ease-out;
+  }
 }
 
 @keyframes eyeSweep {
@@ -589,6 +661,18 @@ body[dir="rtl"] .proof-list p {
   50% {
     transform: scale(0.72);
     opacity: 1;
+  }
+}
+
+@keyframes timingPress {
+  0% {
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    transform: translateX(-50%) scale(0.96);
+  }
+  100% {
+    transform: translateX(-50%) scale(1);
   }
 }
 
