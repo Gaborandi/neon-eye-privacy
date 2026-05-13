@@ -4,20 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#041209">
-  <meta name="description" content="Neon Eye is an independent premium precision timing game by Gaborandi with a 100-stage campaign, Zen and Flux modes, leaderboards, purchases, ads, consent, and clear privacy details.">
+  <meta name="description" content="Neon Eye is an independent precision timing game by Gaborandi with a 100-stage campaign, Zen and Flux modes, leaderboards, purchases, ads, consent, and clear privacy details.">
   <link rel="canonical" href="https://gaborandi.github.io/neon-eye-privacy/">
   <meta property="og:title" content="Neon Eye | Precision Timing Game">
   <meta property="og:description" content="Precision timing, neon focus, and public privacy details for the independent mobile game.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://gaborandi.github.io/neon-eye-privacy/">
-  <meta property="og:image" content="https://gaborandi.github.io/neon-eye-privacy/assets/neon-eye-screen-campaign.png">
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Neon Eye | Precision Timing Game">
   <meta name="twitter:description" content="Precision timing, neon focus, and public privacy details for the independent mobile game.">
-  <meta name="twitter:image" content="https://gaborandi.github.io/neon-eye-privacy/assets/neon-eye-screen-campaign.png">
   <title>Neon Eye | Precision Timing Game</title>
   <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%23041209"/><circle cx="32" cy="32" r="18" fill="none" stroke="%23ff8740" stroke-width="6"/><circle cx="32" cy="32" r="6" fill="%23ff8740"/></svg>'>
-  <link rel="preload" as="image" href="./assets/neon-eye-screen-campaign.png">
   <link rel="stylesheet" href="./assets/site.css">
 </head>
 <body>
@@ -65,38 +62,36 @@
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow" data-i18n="home.eyebrow">Precision timing game</p>
-        <h1 data-i18n="home.heroTitle">Neon Eye</h1>
+        <h1 data-i18n="home.heroTitle">Every millisecond has a color.</h1>
         <p class="lede" data-i18n="home.heroText">
-          Read the ring, strike the perfect window, and push deeper through a
-          100-stage campaign built for clean focus and rising pressure.
+          Neon Eye is a focused mobile timing game about reading a moving eye,
+          striking the perfect window, and pushing deeper through a 100-stage
+          campaign.
         </p>
-        <div class="hero-lower">
-          <div class="hero-actions" aria-label="Primary actions">
-            <span class="button primary inert" data-i18n="home.storeCta">App Store link coming soon</span>
-            <a class="button secondary" href="./privacy/" data-i18n="home.privacyCta">Read privacy policy</a>
-          </div>
-          <dl class="trust-strip" aria-label="Release profile">
-            <div><dt data-i18n="home.promiseOneTitle">100 stages</dt><dd data-i18n="home.promiseOneText">Campaign built around pressure</dd></div>
-            <div><dt data-i18n="home.promiseTwoTitle">Fast modes</dt><dd data-i18n="home.promiseTwoText">Zen, Flux, and daily play</dd></div>
-            <div><dt data-i18n="home.promiseThreeTitle">Player controls</dt><dd data-i18n="home.promiseThreeText">Consent, privacy, and support</dd></div>
-          </dl>
+        <div class="hero-actions" aria-label="Primary actions">
+          <span class="button primary inert" data-i18n="home.storeCta">App Store link coming soon</span>
+          <a class="button secondary" href="./privacy/" data-i18n="home.privacyCta">Read privacy policy</a>
         </div>
+        <dl class="trust-strip" aria-label="Release profile">
+          <div><dt data-i18n="home.promiseOneTitle">100 stages</dt><dd data-i18n="home.promiseOneText">Campaign built around pressure</dd></div>
+          <div><dt data-i18n="home.promiseTwoTitle">Fast modes</dt><dd data-i18n="home.promiseTwoText">Zen, Flux, and daily play</dd></div>
+          <div><dt data-i18n="home.promiseThreeTitle">Player controls</dt><dd data-i18n="home.promiseThreeText">Consent, privacy, and support</dd></div>
+        </dl>
       </div>
 
-      <div class="game-visual" aria-label="Neon Eye gameplay screenshots">
-        <figure class="hero-shot hero-shot-main">
-          <img src="./assets/neon-eye-screen-campaign.png" alt="Neon Eye Campaign gameplay screenshot with the timing ring, arc target, needle, level, lives, tempo, and hit count">
-          <figcaption>
-            <span data-i18n="home.heroShotKicker">Campaign gameplay</span>
-            <strong data-i18n="home.heroShotTitle">Read the ring. Hit the instant.</strong>
-          </figcaption>
-        </figure>
-        <figure class="hero-shot hero-shot-menu">
-          <img src="./assets/neon-eye-screen-menu.png" alt="Neon Eye main menu screenshot showing Campaign, Zen, Flux, Daily, Battle Pass, Leaderboard, Cosmetics, and Shop">
-        </figure>
-        <figure class="hero-shot hero-shot-flux">
-          <img src="./assets/neon-eye-screen-flux.png" alt="Neon Eye Flux gameplay screenshot with the timing ring, wave number, lives, timer, and moving target">
-        </figure>
+      <div class="game-visual" aria-label="Neon Eye gameplay visual">
+        <div class="phone-shell">
+          <div class="eye-stage">
+            <div class="eye-title">NEON EYE</div>
+            <div class="eye-ring" aria-hidden="true"></div>
+            <div class="hit-zone" aria-hidden="true"></div>
+            <div class="pulse-line" aria-hidden="true"></div>
+            <button class="timing-demo" type="button" data-timing-target data-i18n-aria="home.demoButtonLabel" aria-label="Try the Neon Eye timing window">
+              <span class="demo-kicker" data-i18n="home.demoKicker">Tap the window</span>
+              <span class="demo-score" data-timing-score data-i18n="home.demoReady">READY</span>
+            </button>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -158,8 +153,8 @@
       </div>
       <div class="proof-list">
         <p data-i18n="home.progressOne">The first screen leads with the actual game surface: Campaign, Zen, Flux, Daily, Battle Pass, Leaderboard, Cosmetics, Shop, and Settings.</p>
-        <p data-i18n="home.progressTwo">Progression is built around campaign stages, medals, daily goals, mastery, and optional leaderboard/cloud-save systems.</p>
-        <p data-i18n="home.progressThree">The launch profile is transparent: ads, consent, ATT, analytics, purchases, support, and deletion requests are documented below.</p>
+        <p data-i18n="home.progressTwo">Progression is built around campaign stages, medals, daily goals, mastery, Game Center rankings, and local device records.</p>
+        <p data-i18n="home.progressThree">The launch profile is transparent: ads, consent, ATT, purchases, support, and deletion requests are documented below.</p>
       </div>
     </section>
 
@@ -189,11 +184,11 @@
       <div class="section-heading">
         <p class="eyebrow" data-i18n="privacy.eyebrow">Player trust</p>
         <h2 data-i18n="privacy.title">Neon Eye Privacy Policy</h2>
-        <p class="legal-date" data-i18n="privacy.updated">Last updated: May 7, 2026</p>
+        <p class="legal-date" data-i18n="privacy.updated">Last updated: May 13, 2026</p>
       </div>
       <div class="proof-list">
         <p data-i18n="common.translationNote">Translations are provided for convenience. If a translation differs from the English version, the English version controls.</p>
-        <p data-i18n="privacy.summary">The current launch profile includes ads, Google UMP consent, Apple's App Tracking Transparency prompt, analytics, Apple Game Center, Apple StoreKit purchases, Supabase leaderboards, Supabase cloud save, receipt validation, Remove Ads, limited/non-personalized ads, support, and deletion requests.</p>
+        <p data-i18n="privacy.summary">The current launch profile includes ads, Google UMP consent, Apple's App Tracking Transparency prompt, Apple Game Center, Apple StoreKit purchases, local device records, Remove Ads, limited/non-personalized ads, support, and local data deletion requests.</p>
       </div>
     </section>
 
@@ -205,7 +200,7 @@
         </article>
         <article>
           <h3 data-i18n="privacy.onlineTitle">Online Features</h3>
-          <p data-i18n="privacy.onlineText">When online features are available, Neon Eye may process leaderboard entries, cloud-save records, app-generated user identifiers, Game Center identifiers, scores, stage progress, purchase entitlement state, and timestamps through Supabase and Apple services.</p>
+          <p data-i18n="privacy.onlineText">When online features are available, Neon Eye may use Apple Game Center for supported leaderboard scores and Apple StoreKit for purchase entitlements. Device leaderboard records and save progress are stored locally on your device; the shipped v1 app does not use a custom online leaderboard or remote save backend.</p>
         </article>
         <article>
           <h3 data-i18n="privacy.adsTitle">Advertising And Tracking</h3>
@@ -221,7 +216,7 @@
         </article>
         <article>
           <h3 data-i18n="privacy.sharingTitle">Data Sharing</h3>
-          <p data-i18n="privacy.sharingText">We do not sell personal information. Data is shared with Apple, Google, and Supabase only as needed for App Store distribution, ads, consent, analytics, purchases, Game Center, leaderboards, cloud save, receipt validation, and support.</p>
+          <p data-i18n="privacy.sharingText">We do not sell personal information. Data is shared with Apple and Google only as needed for App Store distribution, ads, consent, purchases, Game Center, and support.</p>
         </article>
       </div>
     </section>
@@ -232,7 +227,7 @@
         <h2 data-i18n="privacy.detailsTitle">Retention, children, and contact.</h2>
       </div>
       <div class="proof-list">
-        <p data-i18n="privacy.retentionText">We retain gameplay, analytics, leaderboard, cloud-save, and entitlement data as long as needed to operate the game, maintain records, prevent abuse, and comply with legal requirements. Third-party services retain data according to their own policies.</p>
+        <p data-i18n="privacy.retentionText">Gameplay progress, local leaderboard records, settings, and entitlement state remain on your device unless you delete local data or remove the app. Apple and Google retain platform, purchase, Game Center, ad, and consent data according to their own policies.</p>
         <p data-i18n="privacy.childrenText">Neon Eye is not directed to children under 13. The app includes age and consent guardrails where required.</p>
         <p><span data-i18n="privacy.contactText">For privacy, support, correction, deletion, or purchase-support requests, email</span> <a href="mailto:a.alameldien@gmail.com">a.alameldien@gmail.com</a>.</p>
       </div>

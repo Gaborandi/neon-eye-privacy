@@ -15,18 +15,18 @@ const NEON_I18N = {
     },
     meta: {
       homeTitle: "Neon Eye | Precision Timing Game",
-      homeDescription: "Neon Eye is an independent premium precision timing game by Gaborandi with a 100-stage campaign, Zen and Flux modes, leaderboards, purchases, ads, consent, and clear privacy details.",
+      homeDescription: "Neon Eye is an independent precision timing game by Gaborandi with a 100-stage campaign, Zen and Flux modes, leaderboards, purchases, ads, consent, and clear privacy details.",
       privacyTitle: "Neon Eye Privacy Policy | Gaborandi",
-      privacyDescription: "Privacy policy for Neon Eye ads, analytics, consent, purchases, Game Center, leaderboards, cloud save, support, and deletion requests.",
+      privacyDescription: "Privacy policy for Neon Eye ads, consent, purchases, Game Center, local device records, support, and deletion requests.",
       termsTitle: "Neon Eye Terms | Gaborandi",
       termsDescription: "Terms for Neon Eye gameplay, purchases, ads, rewards, online services, leaderboards, and support.",
       supportTitle: "Neon Eye Support | Gaborandi",
-      supportDescription: "Support for Neon Eye gameplay, purchases, restore purchases, privacy requests, leaderboards, and cloud save.",
+      supportDescription: "Support for Neon Eye gameplay, purchases, restore purchases, privacy requests, leaderboards, and local data.",
     },
     home: {
       eyebrow: "Precision timing game",
-      heroTitle: "Neon Eye",
-      heroText: "Read the ring, strike the perfect window, and push deeper through a 100-stage campaign built for clean focus and rising pressure.",
+      heroTitle: "Every millisecond has a color.",
+      heroText: "Neon Eye is a focused mobile timing game about reading a moving eye, striking the perfect window, and pushing deeper through a 100-stage campaign.",
       storeCta: "App Store link coming soon",
       privacyCta: "Read privacy policy",
       supportCta: "Contact support",
@@ -42,8 +42,6 @@ const NEON_I18N = {
       demoGood: "GOOD",
       demoMiss: "MISS",
       demoButtonLabel: "Try the Neon Eye timing window",
-      heroShotKicker: "Campaign gameplay",
-      heroShotTitle: "Read the ring. Hit the instant.",
       systemEyebrow: "The core idea",
       systemTitle: "A small game built around exact timing.",
       featureOneTitle: "Read the eye",
@@ -66,8 +64,8 @@ const NEON_I18N = {
       progressEyebrow: "Built for launch",
       progressTitle: "Focused enough to understand, deep enough to return to.",
       progressOne: "The first screen leads with the actual game surface: Campaign, Zen, Flux, Daily, Battle Pass, Leaderboard, Cosmetics, Shop, and Settings.",
-      progressTwo: "Progression is built around campaign stages, medals, daily goals, mastery, and optional leaderboard/cloud-save systems.",
-      progressThree: "The launch profile is transparent: ads, consent, ATT, analytics, purchases, support, and deletion requests are documented below.",
+      progressTwo: "Progression is built around campaign stages, medals, daily goals, mastery, Game Center rankings, and local device records.",
+      progressThree: "The launch profile is transparent: ads, consent, ATT, purchases, support, and deletion requests are documented below.",
       lookEyebrow: "Game look",
       lookTitle: "Dark field, hot target, readable choices.",
       lookText: "The game should feel focused before the first tap: high contrast, few distractions, and an interface that points the player toward timing, practice, progression, and support.",
@@ -79,12 +77,12 @@ const NEON_I18N = {
     privacy: {
       eyebrow: "Player trust",
       title: "Neon Eye Privacy Policy",
-      updated: "Last updated: May 7, 2026",
-      summary: "The current launch profile includes ads, Google UMP consent, Apple's App Tracking Transparency prompt, analytics, Apple Game Center, Apple StoreKit purchases, Supabase leaderboards, Supabase cloud save, receipt validation, Remove Ads, limited/non-personalized ads, support, and deletion requests.",
+      updated: "Last updated: May 13, 2026",
+      summary: "The current launch profile includes ads, Google UMP consent, Apple's App Tracking Transparency prompt, Apple Game Center, Apple StoreKit purchases, local device records, Remove Ads, limited/non-personalized ads, support, and local data deletion requests.",
       gameplayTitle: "Gameplay And App Usage",
       gameplayText: "We may process stages played, scores, medals, session duration, selected game mode, daily challenge state, cosmetic/progression state, settings, ad/revive interactions, shop interactions, technical errors, diagnostics, and performance data.",
       onlineTitle: "Online Features",
-      onlineText: "When online features are available, Neon Eye may process leaderboard entries, cloud-save records, app-generated user identifiers, Game Center identifiers, scores, stage progress, purchase entitlement state, and timestamps through Supabase and Apple services.",
+      onlineText: "When online features are available, Neon Eye may use Apple Game Center for supported leaderboard scores and Apple StoreKit for purchase entitlements. Device leaderboard records and save progress are stored locally on your device; the shipped v1 app does not use a custom online leaderboard or remote save backend.",
       adsTitle: "Advertising And Tracking",
       adsText: "Neon Eye uses Google AdMob for interstitial ads and optional rewarded ads. Google UMP manages consent where required. iOS tracking that requires permission is controlled by Apple's App Tracking Transparency prompt.",
       purchaseTitle: "Purchases",
@@ -92,23 +90,23 @@ const NEON_I18N = {
       choicesTitle: "Your Choices",
       choicesText: "You can manage iOS tracking in Settings, use Google UMP privacy choices where shown, restore purchases through Apple, and contact support for access, correction, deletion, or purchase-support requests.",
       sharingTitle: "Data Sharing",
-      sharingText: "We do not sell personal information. Data is shared with Apple, Google, and Supabase only as needed for App Store distribution, ads, consent, analytics, purchases, Game Center, leaderboards, cloud save, receipt validation, and support.",
+      sharingText: "We do not sell personal information. Data is shared with Apple and Google only as needed for App Store distribution, ads, consent, purchases, Game Center, and support.",
       detailsEyebrow: "Details",
       detailsTitle: "Retention, children, and contact.",
-      retentionText: "We retain gameplay, analytics, leaderboard, cloud-save, and entitlement data as long as needed to operate the game, maintain records, prevent abuse, and comply with legal requirements. Third-party services retain data according to their own policies.",
+      retentionText: "Gameplay progress, local leaderboard records, settings, and entitlement state remain on your device unless you delete local data or remove the app. Apple and Google retain platform, purchase, Game Center, ad, and consent data according to their own policies.",
       childrenText: "Neon Eye is not directed to children under 13. The app includes age and consent guardrails where required.",
       contactText: "For privacy, support, correction, deletion, or purchase-support requests, email",
     },
     terms: {
       eyebrow: "Terms of use",
       title: "Neon Eye Terms",
-      updated: "Last updated: May 7, 2026",
+      updated: "Last updated: May 13, 2026",
       useTitle: "Use Of The App",
       useText: "Neon Eye is provided for personal entertainment. Do not misuse the app, interfere with its services, or attempt to manipulate purchases, leaderboards, saves, ads, rewards, or technical protections.",
       purchaseTitle: "Purchases",
       purchaseText: "In-app purchases are processed by Apple. Purchase availability, refunds, restoration, and account-level purchase history are handled through Apple's systems. Do not duplicate, spoof, resell, or tamper with purchase entitlements, consumables, or rewards.",
       onlineTitle: "Online Features",
-      onlineText: "Online features such as leaderboards, cloud save, analytics, and ads may depend on network availability, account status, platform rules, consent state, and third-party service configuration.",
+      onlineText: "Online features such as Game Center leaderboards, purchases, restore, ads, and rewarded videos may depend on network availability, account status, platform rules, consent state, and third-party service configuration.",
       adsTitle: "Ads And Rewards",
       adsText: "Ads and optional rewarded videos are subject to consent, region, availability, no-fill behavior, and platform rules. Remove Ads disables interstitial ads, but optional rewarded ads may remain available when you choose to watch them for an in-game reward.",
       contactTitle: "Support",
@@ -117,7 +115,7 @@ const NEON_I18N = {
     support: {
       eyebrow: "Support",
       title: "Neon Eye Support",
-      intro: "For gameplay, purchase, restore, privacy, leaderboard, or cloud-save help, email the support address below.",
+      intro: "For gameplay, purchase, restore, privacy, leaderboard, or local-data help, email the support address below.",
       includeTitle: "What To Include",
       includeText: "Please include your app version, device model, iOS version, and a short description of the issue. Do not send payment card details.",
       restoreTitle: "Purchases And Restore",
@@ -128,26 +126,23 @@ const NEON_I18N = {
   },
   ar: {
     common: { skip: "تخطي إلى المحتوى", home: "الرئيسية", game: "اللعبة", modes: "الأوضاع", progress: "التقدم", privacy: "الخصوصية", terms: "الشروط", support: "الدعم", language: "اللغة", footer: "Neon Eye لعبة هاتف مستقلة من Gaborandi.", translationNote: "تتوفر الترجمات للتسهيل. إذا اختلفت الترجمة عن النسخة الإنجليزية، تعتمد النسخة الإنجليزية." },
-    meta: { homeTitle: "Neon Eye | لعبة توقيت دقيقة", homeDescription: "Neon Eye لعبة توقيت دقيقة مستقلة من Gaborandi مع حملة من 100 مرحلة وأوضاع Zen وFlux ولوحات صدارة ومشتريات وإعلانات وموافقة وتفاصيل خصوصية واضحة.", privacyTitle: "سياسة خصوصية Neon Eye | Gaborandi", privacyDescription: "سياسة خصوصية Neon Eye للإعلانات والتحليلات والموافقة والمشتريات وGame Center ولوحات الصدارة والحفظ السحابي والدعم وطلبات الحذف.", termsTitle: "شروط Neon Eye | Gaborandi", termsDescription: "شروط Neon Eye للعب والمشتريات والإعلانات والمكافآت والخدمات المتصلة ولوحات الصدارة والدعم.", supportTitle: "دعم Neon Eye | Gaborandi", supportDescription: "دعم Neon Eye للعب والمشتريات واستعادة الشراء وطلبات الخصوصية ولوحات الصدارة والحفظ السحابي." },
-    home: { eyebrow: "لعبة توقيت دقيقة", heroTitle: "Neon Eye", heroText: "اقرأ الحلقة، اضرب نافذة التوقيت المثالية، وتقدم في حملة من 100 مرحلة مبنية للتركيز والضغط المتصاعد.", storeCta: "رابط App Store قريبًا", privacyCta: "اقرأ سياسة الخصوصية", supportCta: "تواصل مع الدعم", promiseOneTitle: "100 مرحلة", promiseOneText: "حملة مبنية حول الضغط", promiseTwoTitle: "أوضاع سريعة", promiseTwoText: "Zen وFlux ولعب يومي", promiseThreeTitle: "تحكم اللاعب", promiseThreeText: "موافقة وخصوصية ودعم", demoKicker: "اضغط النافذة", demoReady: "جاهز", demoPerfect: "مثالي", demoGood: "جيد", demoMiss: "خطأ", demoButtonLabel: "جرّب نافذة توقيت Neon Eye", heroShotKicker: "لعب الحملة", heroShotTitle: "اقرأ الحلقة. اضرب اللحظة.", systemEyebrow: "الفكرة الأساسية", systemTitle: "لعبة صغيرة مبنية حول توقيت دقيق.", featureOneTitle: "اقرأ العين", featureOneText: "الهدف بسيط، لكن الضغط يأتي من الحركة والإيقاع ونافذة التوقيت التي تضيق.", featureTwoTitle: "اصعد في الحملة", featureTwoText: "التقدم والميداليات وأهداف الإتقان والتحديات تعطي كل ضربة نظيفة قيمة.", featureThreeTitle: "احترام اللاعب", featureThreeText: "الإعلانات والميزات المتصلة موثقة هنا وتخضع للموافقة عند الحاجة.", modesEyebrow: "أوضاع الإطلاق", modesTitle: "إدخال واحد وأنواع متعددة من الضغط.", modesText: "تبقي Neon Eye القاعدة بسيطة، ثم تغير سبب أهمية كل ضربة.", modeCampaignTitle: "الحملة", modeCampaignText: "مسار من 100 مرحلة تضيق فيه نافذة التوقيت.", modePracticeTitle: "Zen", modePracticeText: "مكان أقل ضغطًا لبناء الإيقاع والثبات.", modeFluxTitle: "Flux", modeFluxText: "وضع تسجيل أكثر حدة لمن يريد ضغطًا متغيرًا.", modeMetaTitle: "لوحات الصدارة والمظاهر", modeMetaText: "تصنيف اختياري وتقدم تجميلي يعطيان الجولات النظيفة سجلًا.", progressEyebrow: "مبنية للإطلاق", progressTitle: "واضحة بما يكفي للفهم وعميقة بما يكفي للعودة.", progressOne: "الشاشة الأولى تقود إلى الحملة وZen وFlux واليومي وBattle Pass ولوحات الصدارة والمظاهر والمتجر والإعدادات.", progressTwo: "التقدم مبني حول المراحل والميداليات والأهداف اليومية والإتقان.", progressThree: "ملف الإطلاق شفاف: الإعلانات والموافقة وATT والتحليلات والمشتريات والدعم موثقة أدناه.", lookEyebrow: "شكل اللعبة", lookTitle: "حقل داكن، هدف ساخن، وخيارات واضحة.", lookText: "يجب أن تبدو اللعبة مركزة قبل أول لمسة: تباين عالٍ وواجهة قليلة التشتيت.", lookCaption: "لقطات فعلية من الإصدار الحالي للعبة Neon Eye.", menuShotCaption: "القائمة الرئيسية الحالية من إصدار اللعبة.", campaignShotCaption: "شاشة توقيت الحملة.", fluxShotCaption: "شاشة ضغط Flux." },
-    privacy: { eyebrow: "ثقة اللاعب", title: "سياسة خصوصية Neon Eye", updated: "آخر تحديث: 7 مايو 2026", summary: "يتضمن إصدار الإطلاق الإعلانات، موافقة Google UMP، مطالبة Apple ATT، التحليلات، Game Center، مشتريات Apple StoreKit، لوحات صدارة Supabase، الحفظ السحابي، التحقق من الإيصالات، إزالة الإعلانات، الإعلانات المحدودة أو غير المخصصة، الدعم، وطلبات الحذف.", gameplayTitle: "اللعب واستخدام التطبيق", gameplayText: "قد نعالج المراحل، النقاط، الميداليات، مدة الجلسة، وضع اللعب، التحديات، التقدم، الإعدادات، تفاعلات الإعلانات، الأخطاء، التشخيصات، وبيانات الأداء.", onlineTitle: "الميزات المتصلة", onlineText: "قد تعالج Neon Eye بيانات لوحات الصدارة، الحفظ السحابي، معرفات التطبيق، معرفات Game Center، النقاط، التقدم، حالة المشتريات، والطوابع الزمنية عبر Supabase وApple.", adsTitle: "الإعلانات والتتبع", adsText: "تستخدم Neon Eye Google AdMob للإعلانات وGoogle UMP للموافقة حيث يلزم. التتبع على iOS يخضع لمطالبة Apple ATT.", purchaseTitle: "المشتريات", purchaseText: "تتم المشتريات داخل التطبيق عبر Apple StoreKit ونحفظ حالة الاستحقاق لفتح العناصر مثل Remove Ads والحزم.", choicesTitle: "اختياراتك", choicesText: "يمكنك إدارة التتبع من إعدادات iOS، واستخدام خيارات خصوصية Google UMP، واستعادة المشتريات عبر Apple، والتواصل معنا لطلبات الوصول أو التصحيح أو الحذف.", sharingTitle: "مشاركة البيانات", sharingText: "لا نبيع المعلومات الشخصية. تتم المشاركة مع Apple وGoogle وSupabase فقط لتشغيل اللعبة والإعلانات والموافقة والتحليلات والمشتريات ولوحات الصدارة والحفظ والدعم.", detailsEyebrow: "تفاصيل", detailsTitle: "الاحتفاظ والطفل والتواصل.", retentionText: "نحتفظ بالبيانات طالما كان ذلك مطلوبًا لتشغيل اللعبة، حفظ السجلات، منع الإساءة، والامتثال للقانون.", childrenText: "Neon Eye ليست موجهة للأطفال دون 13 عامًا وتتضمن ضوابط عمر وموافقة عند الحاجة.", contactText: "لطلبات الخصوصية أو الدعم أو التصحيح أو الحذف أو دعم المشتريات، راسل" },
-    terms: { eyebrow: "شروط الاستخدام", title: "شروط Neon Eye", updated: "آخر تحديث: 7 مايو 2026", useTitle: "استخدام التطبيق", useText: "Neon Eye مقدمة للترفيه الشخصي. لا تسيء استخدام التطبيق أو تتلاعب بالمشتريات أو اللوحات أو الحفظ أو الإعلانات أو المكافآت.", purchaseTitle: "المشتريات", purchaseText: "تتم المشتريات عبر Apple وتخضع للاستعادة والاسترداد من خلال أنظمة Apple.", onlineTitle: "الميزات المتصلة", onlineText: "قد تعتمد لوحات الصدارة والحفظ السحابي والتحليلات والإعلانات على الشبكة وحالة الموافقة وخدمات الجهات الخارجية.", adsTitle: "الإعلانات والمكافآت", adsText: "الإعلانات والفيديوهات المكافئة اختيارية وتخضع للموافقة والمنطقة والتوفر وقواعد المنصة.", contactTitle: "الدعم", contactText: "للدعم، تواصل عبر" },
-    support: { eyebrow: "الدعم", title: "دعم Neon Eye", intro: "للمساعدة في اللعب أو الشراء أو الاستعادة أو الخصوصية أو لوحات الصدارة أو الحفظ السحابي، راسل البريد أدناه.", includeTitle: "ما الذي يجب تضمينه", includeText: "اذكر إصدار التطبيق، طراز الجهاز، إصدار iOS، ووصفًا قصيرًا للمشكلة. لا ترسل بيانات بطاقة الدفع.", restoreTitle: "المشتريات والاستعادة", restoreText: "استخدم Restore Purchases داخل Neon Eye. إذا لم تعمل، اذكر المنتج ومنطقة حساب Apple.", privacyTitle: "طلبات الخصوصية", privacyText: "لطلبات الوصول أو التصحيح أو الحذف أو خيارات الموافقة، أرسل معلومات كافية لتحديد سجل اللاعب داخل التطبيق." },
+    meta: { homeTitle: "Neon Eye | لعبة توقيت دقيقة", homeDescription: "Neon Eye لعبة توقيت دقيقة مستقلة من Gaborandi مع حملة من 100 مرحلة وأوضاع تدريب ولوحات صدارة ومشتريات وإعلانات وموافقة وتفاصيل خصوصية واضحة.", privacyTitle: "سياسة خصوصية Neon Eye | Gaborandi", privacyDescription: "سياسة خصوصية Neon Eye للإعلانات والموافقة والمشتريات وGame Center ولوحات الصدارة والبيانات المحلية والدعم وطلبات الحذف.", termsTitle: "شروط Neon Eye | Gaborandi", termsDescription: "شروط Neon Eye للعب والمشتريات والإعلانات والمكافآت والخدمات المتصلة ولوحات الصدارة والدعم.", supportTitle: "دعم Neon Eye | Gaborandi", supportDescription: "دعم Neon Eye للعب والمشتريات واستعادة الشراء وطلبات الخصوصية ولوحات الصدارة والبيانات المحلية." },
+    home: { eyebrow: "لعبة توقيت دقيقة", heroTitle: "كل جزء من الثانية له لون.", heroText: "Neon Eye لعبة توقيت مركزة تقرأ فيها العين المتحركة، تضرب نافذة التوقيت المثالية، وتتقدم في حملة من 100 مرحلة.", storeCta: "رابط App Store قريبًا", privacyCta: "اقرأ سياسة الخصوصية", supportCta: "تواصل مع الدعم", promiseOneTitle: "100 مرحلة", promiseOneText: "حملة مبنية حول الضغط", promiseTwoTitle: "أوضاع سريعة", promiseTwoText: "تدريب وFlux ولعب يومي", promiseThreeTitle: "تحكم اللاعب", promiseThreeText: "موافقة وخصوصية ودعم", demoKicker: "اضغط النافذة", demoReady: "جاهز", demoPerfect: "مثالي", demoGood: "جيد", demoMiss: "خطأ", demoButtonLabel: "جرّب نافذة توقيت Neon Eye", systemEyebrow: "الفكرة الأساسية", systemTitle: "لعبة صغيرة مبنية حول توقيت دقيق.", featureOneTitle: "اقرأ العين", featureOneText: "الهدف بسيط، لكن الضغط يأتي من الحركة والإيقاع ونافذة التوقيت التي تضيق.", featureTwoTitle: "اصعد في الحملة", featureTwoText: "التقدم والميداليات وأهداف الإتقان والتحديات تعطي كل ضربة نظيفة قيمة.", featureThreeTitle: "احترام اللاعب", featureThreeText: "الإعلانات والميزات المتصلة موثقة هنا وتخضع للموافقة عند الحاجة.", modesEyebrow: "أوضاع الإطلاق", modesTitle: "إدخال واحد وأنواع متعددة من الضغط.", modesText: "تبقي Neon Eye القاعدة بسيطة، ثم تغير سبب أهمية كل ضربة.", modeCampaignTitle: "الحملة", modeCampaignText: "مسار من 100 مرحلة تضيق فيه نافذة التوقيت.", modePracticeTitle: "التدريب", modePracticeText: "مكان سريع لبناء الإيقاع والثبات.", modeFluxTitle: "Flux", modeFluxText: "وضع تسجيل أكثر حدة لمن يريد ضغطًا متغيرًا.", modeMetaTitle: "لوحات الصدارة والمظاهر", modeMetaText: "تصنيف اختياري وتقدم تجميلي يعطيان الجولات النظيفة سجلًا.", progressEyebrow: "مبنية للإطلاق", progressTitle: "واضحة بما يكفي للفهم وعميقة بما يكفي للعودة.", progressOne: "الشاشة الأولى تقود إلى الحملة والتدريب وFlux ولوحات الصدارة والمظاهر والإعدادات.", progressTwo: "التقدم مبني حول المراحل والميداليات والأهداف اليومية والإتقان.", progressThree: "ملف الإطلاق شفاف: الإعلانات والموافقة وATT والتحليلات والمشتريات والدعم موثقة أدناه.", lookEyebrow: "شكل اللعبة", lookTitle: "حقل داكن، هدف ساخن، وخيارات واضحة.", lookText: "يجب أن تبدو اللعبة مركزة قبل أول لمسة: تباين عالٍ وواجهة قليلة التشتيت.", lookCaption: "معاينة بصرية مولدة مباشرة داخل موقع الإطلاق." },
+    privacy: { eyebrow: "ثقة اللاعب", title: "سياسة خصوصية Neon Eye", updated: "آخر تحديث: 13 مايو 2026", summary: "يتضمن إصدار الإطلاق الإعلانات، موافقة Google UMP، مطالبة Apple ATT، Game Center، مشتريات Apple StoreKit، سجلات محلية على الجهاز، إزالة الإعلانات، الإعلانات المحدودة أو غير المخصصة، الدعم، وطلبات حذف البيانات المحلية.", gameplayTitle: "اللعب واستخدام التطبيق", gameplayText: "قد نعالج المراحل، النقاط، الميداليات، مدة الجلسة، وضع اللعب، التحديات، التقدم، الإعدادات، تفاعلات الإعلانات، الأخطاء، التشخيصات، وبيانات الأداء.", onlineTitle: "الميزات المتصلة", onlineText: "قد تستخدم Neon Eye Apple Game Center للوحات الصدارة المدعومة وApple StoreKit للمشتريات والاستحقاقات. يتم حفظ التقدم وسجلات لوحة الصدارة المحلية على جهازك، ولا يستخدم إصدار v1 المشحون خلفية سحابية مخصصة للوحة الصدارة أو الحفظ.", adsTitle: "الإعلانات والتتبع", adsText: "تستخدم Neon Eye Google AdMob للإعلانات وGoogle UMP للموافقة حيث يلزم. التتبع على iOS يخضع لمطالبة Apple ATT.", purchaseTitle: "المشتريات", purchaseText: "تتم المشتريات داخل التطبيق عبر Apple StoreKit ونحفظ حالة الاستحقاق لفتح العناصر مثل Remove Ads والحزم.", choicesTitle: "اختياراتك", choicesText: "يمكنك إدارة التتبع من إعدادات iOS، واستخدام خيارات خصوصية Google UMP، واستعادة المشتريات عبر Apple، والتواصل معنا لطلبات الوصول أو التصحيح أو الحذف.", sharingTitle: "مشاركة البيانات", sharingText: "لا نبيع المعلومات الشخصية. تتم المشاركة مع Apple وGoogle فقط عند الحاجة للتوزيع والإعلانات والموافقة والمشتريات وGame Center والدعم.", detailsEyebrow: "تفاصيل", detailsTitle: "الاحتفاظ والطفل والتواصل.", retentionText: "يبقى تقدم اللعب وسجلات لوحة الصدارة المحلية والإعدادات وحالة الاستحقاق على جهازك ما لم تحذف البيانات المحلية أو تزيل التطبيق. تحتفظ Apple وGoogle ببيانات المنصة والمشتريات وGame Center والإعلانات والموافقة وفق سياساتهما.", childrenText: "Neon Eye ليست موجهة للأطفال دون 13 عامًا وتتضمن ضوابط عمر وموافقة عند الحاجة.", contactText: "لطلبات الخصوصية أو الدعم أو التصحيح أو الحذف أو دعم المشتريات، راسل" },
+    terms: { eyebrow: "شروط الاستخدام", title: "شروط Neon Eye", updated: "آخر تحديث: 13 مايو 2026", useTitle: "استخدام التطبيق", useText: "Neon Eye مقدمة للترفيه الشخصي. لا تسيء استخدام التطبيق أو تتلاعب بالمشتريات أو اللوحات أو الحفظ أو الإعلانات أو المكافآت.", purchaseTitle: "المشتريات", purchaseText: "تتم المشتريات عبر Apple وتخضع للاستعادة والاسترداد من خلال أنظمة Apple.", onlineTitle: "الميزات المتصلة", onlineText: "قد تعتمد لوحات صدارة Game Center والمشتريات والاستعادة والإعلانات والفيديوهات المكافئة على الشبكة وحالة الحساب والموافقة وقواعد المنصة.", adsTitle: "الإعلانات والمكافآت", adsText: "الإعلانات والفيديوهات المكافئة اختيارية وتخضع للموافقة والمنطقة والتوفر وقواعد المنصة.", contactTitle: "الدعم", contactText: "للدعم، تواصل عبر" },
+    support: { eyebrow: "الدعم", title: "دعم Neon Eye", intro: "للمساعدة في اللعب أو الشراء أو الاستعادة أو الخصوصية أو لوحات الصدارة أو البيانات المحلية، راسل البريد أدناه.", includeTitle: "ما الذي يجب تضمينه", includeText: "اذكر إصدار التطبيق، طراز الجهاز، إصدار iOS، ووصفًا قصيرًا للمشكلة. لا ترسل بيانات بطاقة الدفع.", restoreTitle: "المشتريات والاستعادة", restoreText: "استخدم Restore Purchases داخل Neon Eye. إذا لم تعمل، اذكر المنتج ومنطقة حساب Apple.", privacyTitle: "طلبات الخصوصية", privacyText: "لطلبات الوصول أو التصحيح أو الحذف أو خيارات الموافقة، أرسل معلومات كافية لتحديد سجل اللاعب داخل التطبيق." },
   },
   es: {
     common: { skip: "Saltar al contenido", home: "Inicio", game: "Juego", modes: "Modos", progress: "Progreso", privacy: "Privacidad", terms: "Términos", support: "Soporte", language: "Idioma", footer: "Neon Eye es un juego móvil independiente de Gaborandi.", translationNote: "Las traducciones se ofrecen por comodidad. Si difieren de la versión en inglés, prevalece la versión en inglés." },
-    meta: { homeTitle: "Neon Eye | Juego de precisión", homeDescription: "Neon Eye es un juego móvil independiente de precisión de Gaborandi con campaña de 100 fases, modos Zen y Flux, clasificaciones, compras, anuncios, consentimiento y detalles claros de privacidad.", privacyTitle: "Política de privacidad de Neon Eye | Gaborandi", privacyDescription: "Política de privacidad de Neon Eye para anuncios, analíticas, consentimiento, compras, Game Center, clasificaciones, nube, soporte y borrado.", termsTitle: "Términos de Neon Eye | Gaborandi", termsDescription: "Términos de Neon Eye para juego, compras, anuncios, recompensas, servicios online, clasificaciones y soporte.", supportTitle: "Soporte de Neon Eye | Gaborandi", supportDescription: "Soporte de Neon Eye para juego, compras, restauración, privacidad, clasificaciones y guardado en la nube." },
-    home: { eyebrow: "Juego de precisión", heroTitle: "Neon Eye", heroText: "Lee el anillo, acierta la ventana perfecta y avanza por una campaña de 100 fases diseñada para enfoque limpio y presión creciente.", storeCta: "App Store próximamente", privacyCta: "Leer privacidad", supportCta: "Contactar soporte", promiseOneTitle: "100 fases", promiseOneText: "Campaña con presión creciente", promiseTwoTitle: "Modos rápidos", promiseTwoText: "Zen, Flux y juego diario", promiseThreeTitle: "Controles del jugador", promiseThreeText: "Consentimiento, privacidad y soporte", demoKicker: "Toca la ventana", demoReady: "LISTO", demoPerfect: "PERFECTO", demoGood: "BIEN", demoMiss: "FALLO", demoButtonLabel: "Probar la ventana de timing de Neon Eye", heroShotKicker: "Juego de campaña", heroShotTitle: "Lee el anillo. Golpea el instante.", systemEyebrow: "La idea central", systemTitle: "Un juego pequeño construido sobre timing exacto.", featureOneTitle: "Lee el ojo", featureOneText: "El objetivo es simple, pero la presión viene del movimiento, el ritmo y la ventana perfecta más estrecha.", featureTwoTitle: "Sube la campaña", featureTwoText: "Progreso, medallas, maestría y desafíos dan propósito a cada golpe limpio.", featureThreeTitle: "Respeta al jugador", featureThreeText: "Los anuncios y funciones online se documentan aquí y se controlan con consentimiento cuando corresponde.", modesEyebrow: "Modos de lanzamiento", modesTitle: "Una entrada, varias presiones.", modesText: "Neon Eye mantiene la regla simple y cambia por qué importa cada golpe.", modeCampaignTitle: "Campaña", modeCampaignText: "Un camino de 100 fases donde la ventana de timing se estrecha.", modePracticeTitle: "Zen", modePracticeText: "Un lugar de menor presión para sentir el ritmo y ganar consistencia.", modeFluxTitle: "Flux", modeFluxText: "Un modo de puntuación más tenso con presión cambiante.", modeMetaTitle: "Clasificación y cosméticos", modeMetaText: "Ranking opcional y progreso cosmético dan registro a las buenas partidas.", progressEyebrow: "Listo para lanzamiento", progressTitle: "Claro para entender, profundo para volver.", progressOne: "La primera pantalla muestra Campaña, Zen, Flux, Diario, Battle Pass, Clasificación, Cosméticos, Tienda y Ajustes.", progressTwo: "La progresión usa fases, medallas, objetivos diarios, maestría y sistemas online opcionales.", progressThree: "El lanzamiento es transparente: anuncios, consentimiento, ATT, analíticas, compras, soporte y borrado están documentados abajo.", lookEyebrow: "Aspecto del juego", lookTitle: "Campo oscuro, objetivo caliente, elecciones claras.", lookText: "El juego debe sentirse enfocado antes del primer toque: alto contraste, pocas distracciones e interfaz clara.", lookCaption: "Capturas reales de la versión actual de Neon Eye.", menuShotCaption: "Menú principal actual de la build del juego.", campaignShotCaption: "Pantalla de timing de Campaña.", fluxShotCaption: "Pantalla de presión de Flux." },
-    privacy: { eyebrow: "Confianza del jugador", title: "Política de privacidad de Neon Eye", updated: "Última actualización: 7 de mayo de 2026", summary: "El lanzamiento incluye anuncios, consentimiento Google UMP, Apple ATT, analíticas, Game Center, Apple StoreKit, clasificaciones y guardado en Supabase, validación de recibos, Remove Ads, anuncios limitados/no personalizados, soporte y solicitudes de borrado.", gameplayTitle: "Juego y uso", gameplayText: "Podemos procesar fases, puntuaciones, medallas, duración, modo, progreso, ajustes, interacciones con anuncios, errores, diagnósticos y rendimiento.", onlineTitle: "Funciones online", onlineText: "Neon Eye puede procesar clasificaciones, guardado en la nube, identificadores, Game Center, puntuaciones, progreso, compras y marcas de tiempo con Supabase y Apple.", adsTitle: "Publicidad y seguimiento", adsText: "Neon Eye usa Google AdMob y Google UMP. El seguimiento en iOS que requiere permiso se controla con Apple ATT.", purchaseTitle: "Compras", purchaseText: "Las compras se procesan con Apple StoreKit. Guardamos derechos necesarios para desbloquear Remove Ads, Battle Pass, Starter Bundle y monedas.", choicesTitle: "Tus opciones", choicesText: "Puedes gestionar ATT en iOS, usar opciones de Google UMP, restaurar compras con Apple y contactar soporte para acceso, corrección o borrado.", sharingTitle: "Compartición", sharingText: "No vendemos información personal. Se comparte con Apple, Google y Supabase solo para operar el juego y sus servicios.", detailsEyebrow: "Detalles", detailsTitle: "Retención, menores y contacto.", retentionText: "Retenemos datos mientras sean necesarios para operar el juego, mantener registros, evitar abuso y cumplir la ley.", childrenText: "Neon Eye no está dirigido a menores de 13 años.", contactText: "Para privacidad, soporte, corrección, borrado o compras, escribe a" },
-    terms: { eyebrow: "Términos de uso", title: "Términos de Neon Eye", updated: "Última actualización: 7 de mayo de 2026", useTitle: "Uso de la app", useText: "Neon Eye se ofrece para entretenimiento personal. No manipules compras, clasificaciones, guardados, anuncios, recompensas ni protecciones.", purchaseTitle: "Compras", purchaseText: "Las compras las procesa Apple y están sujetas a sus sistemas de restauración y reembolso.", onlineTitle: "Funciones online", onlineText: "Clasificaciones, guardado, analíticas y anuncios pueden depender de red, consentimiento y terceros.", adsTitle: "Anuncios y recompensas", adsText: "Los anuncios y vídeos recompensados dependen de consentimiento, región, disponibilidad y reglas de plataforma.", contactTitle: "Soporte", contactText: "Para soporte, contacta a" },
-    support: { eyebrow: "Soporte", title: "Soporte de Neon Eye", intro: "Para juego, compras, restauración, privacidad, clasificaciones o nube, escribe al correo siguiente.", includeTitle: "Qué incluir", includeText: "Incluye versión de app, dispositivo, iOS y una breve descripción. No envíes datos de tarjeta.", restoreTitle: "Compras y restauración", restoreText: "Usa Restore Purchases dentro de Neon Eye. Si falla, indica producto y región de Apple.", privacyTitle: "Solicitudes de privacidad", privacyText: "Para acceso, corrección, borrado o consentimiento, incluye información suficiente para identificar tu registro." },
+    meta: { homeTitle: "Neon Eye | Juego de precisión", homeDescription: "Neon Eye es un juego móvil independiente de precisión de Gaborandi con campaña de 100 fases, modos de práctica, clasificaciones, compras, anuncios, consentimiento y detalles claros de privacidad.", privacyTitle: "Política de privacidad de Neon Eye | Gaborandi", privacyDescription: "Política de privacidad de Neon Eye para anuncios, consentimiento, compras, Game Center, clasificaciones, datos locales, soporte y borrado.", termsTitle: "Términos de Neon Eye | Gaborandi", termsDescription: "Términos de Neon Eye para juego, compras, anuncios, recompensas, servicios online, clasificaciones y soporte.", supportTitle: "Soporte de Neon Eye | Gaborandi", supportDescription: "Soporte de Neon Eye para juego, compras, restauración, privacidad, clasificaciones y datos locales." },
+    home: { eyebrow: "Juego de precisión", heroTitle: "Cada milisegundo tiene color.", heroText: "Neon Eye es un juego móvil de timing sobre leer un ojo en movimiento, acertar la ventana perfecta y avanzar por una campaña de 100 fases.", storeCta: "App Store próximamente", privacyCta: "Leer privacidad", supportCta: "Contactar soporte", promiseOneTitle: "100 fases", promiseOneText: "Campaña con presión creciente", promiseTwoTitle: "Modos rápidos", promiseTwoText: "Práctica, Flux y juego diario", promiseThreeTitle: "Controles del jugador", promiseThreeText: "Consentimiento, privacidad y soporte", demoKicker: "Toca la ventana", demoReady: "LISTO", demoPerfect: "PERFECTO", demoGood: "BIEN", demoMiss: "FALLO", demoButtonLabel: "Probar la ventana de timing de Neon Eye", systemEyebrow: "La idea central", systemTitle: "Un juego pequeño construido sobre timing exacto.", featureOneTitle: "Lee el ojo", featureOneText: "El objetivo es simple, pero la presión viene del movimiento, el ritmo y la ventana perfecta más estrecha.", featureTwoTitle: "Sube la campaña", featureTwoText: "Progreso, medallas, maestría y desafíos dan propósito a cada golpe limpio.", featureThreeTitle: "Respeta al jugador", featureThreeText: "Los anuncios y funciones online se documentan aquí y se controlan con consentimiento cuando corresponde.", modesEyebrow: "Modos de lanzamiento", modesTitle: "Una entrada, varias presiones.", modesText: "Neon Eye mantiene la regla simple y cambia por qué importa cada golpe.", modeCampaignTitle: "Campaña", modeCampaignText: "Un camino de 100 fases donde la ventana de timing se estrecha.", modePracticeTitle: "Práctica", modePracticeText: "Un lugar rápido para sentir el ritmo y ganar consistencia.", modeFluxTitle: "Flux", modeFluxText: "Un modo de puntuación más tenso con presión cambiante.", modeMetaTitle: "Clasificación y cosméticos", modeMetaText: "Ranking opcional y progreso cosmético dan registro a las buenas partidas.", progressEyebrow: "Listo para lanzamiento", progressTitle: "Claro para entender, profundo para volver.", progressOne: "La primera pantalla muestra Campaña, Práctica, Flux, Clasificación, Cosméticos y Ajustes.", progressTwo: "La progresión usa fases, medallas, objetivos diarios, maestría y sistemas online opcionales.", progressThree: "El lanzamiento es transparente: anuncios, consentimiento, ATT, analíticas, compras, soporte y borrado están documentados abajo.", lookEyebrow: "Aspecto del juego", lookTitle: "Campo oscuro, objetivo caliente, elecciones claras.", lookText: "El juego debe sentirse enfocado antes del primer toque: alto contraste, pocas distracciones e interfaz clara.", lookCaption: "Vista temática renderizada directamente por el sitio de lanzamiento." },
+    privacy: { eyebrow: "Confianza del jugador", title: "Política de privacidad de Neon Eye", updated: "Última actualización: 13 de mayo de 2026", summary: "El lanzamiento incluye anuncios, consentimiento Google UMP, Apple ATT, Game Center, Apple StoreKit, registros locales del dispositivo, Remove Ads, anuncios limitados/no personalizados, soporte y solicitudes de borrado de datos locales.", gameplayTitle: "Juego y uso", gameplayText: "Podemos procesar fases, puntuaciones, medallas, duración, modo, progreso, ajustes, interacciones con anuncios, errores, diagnósticos y rendimiento.", onlineTitle: "Funciones online", onlineText: "Neon Eye puede usar Apple Game Center para clasificaciones compatibles y Apple StoreKit para compras y derechos. Los registros locales de clasificación y el progreso se guardan en tu dispositivo; la app v1 publicada no usa un backend propio de clasificación o guardado en la nube.", adsTitle: "Publicidad y seguimiento", adsText: "Neon Eye usa Google AdMob y Google UMP. El seguimiento en iOS que requiere permiso se controla con Apple ATT.", purchaseTitle: "Compras", purchaseText: "Las compras se procesan con Apple StoreKit. Guardamos derechos necesarios para desbloquear Remove Ads, Battle Pass, Starter Bundle y monedas.", choicesTitle: "Tus opciones", choicesText: "Puedes gestionar ATT en iOS, usar opciones de Google UMP, restaurar compras con Apple y contactar soporte para acceso, corrección o borrado.", sharingTitle: "Compartición", sharingText: "No vendemos información personal. Se comparte con Apple y Google solo para distribución, anuncios, consentimiento, compras, Game Center y soporte.", detailsEyebrow: "Detalles", detailsTitle: "Retención, menores y contacto.", retentionText: "El progreso, las clasificaciones locales, ajustes y derechos permanecen en tu dispositivo salvo que borres los datos locales o elimines la app. Apple y Google conservan datos de plataforma, compras, Game Center, anuncios y consentimiento según sus políticas.", childrenText: "Neon Eye no está dirigido a menores de 13 años.", contactText: "Para privacidad, soporte, corrección, borrado o compras, escribe a" },
+    terms: { eyebrow: "Términos de uso", title: "Términos de Neon Eye", updated: "Última actualización: 13 de mayo de 2026", useTitle: "Uso de la app", useText: "Neon Eye se ofrece para entretenimiento personal. No manipules compras, clasificaciones, guardados, anuncios, recompensas ni protecciones.", purchaseTitle: "Compras", purchaseText: "Las compras las procesa Apple y están sujetas a sus sistemas de restauración y reembolso.", onlineTitle: "Funciones online", onlineText: "Las clasificaciones de Game Center, compras, restauración, anuncios y vídeos recompensados pueden depender de red, cuenta, consentimiento y reglas de plataforma.", adsTitle: "Anuncios y recompensas", adsText: "Los anuncios y vídeos recompensados dependen de consentimiento, región, disponibilidad y reglas de plataforma.", contactTitle: "Soporte", contactText: "Para soporte, contacta a" },
+    support: { eyebrow: "Soporte", title: "Soporte de Neon Eye", intro: "Para juego, compras, restauración, privacidad, clasificaciones o datos locales, escribe al correo siguiente.", includeTitle: "Qué incluir", includeText: "Incluye versión de app, dispositivo, iOS y una breve descripción. No envíes datos de tarjeta.", restoreTitle: "Compras y restauración", restoreText: "Usa Restore Purchases dentro de Neon Eye. Si falla, indica producto y región de Apple.", privacyTitle: "Solicitudes de privacidad", privacyText: "Para acceso, corrección, borrado o consentimiento, incluye información suficiente para identificar tu registro." },
   },
 };
 
 Object.assign(NEON_I18N.ar.home, {
-  heroTitle: "Neon Eye",
-  heroShotKicker: "لعب الحملة",
-  heroShotTitle: "اقرأ الحلقة. اضرب اللحظة.",
   promiseTwoText: "Zen وFlux ولعب يومي",
   modePracticeTitle: "Zen",
   modePracticeText: "مكان أقل ضغطًا لبناء الإيقاع والثبات.",
@@ -163,9 +158,6 @@ Object.assign(NEON_I18N.ar.meta, {
 });
 
 Object.assign(NEON_I18N.es.home, {
-  heroTitle: "Neon Eye",
-  heroShotKicker: "Juego de campaña",
-  heroShotTitle: "Lee el anillo. Golpea el instante.",
   promiseTwoText: "Zen, Flux y juego diario",
   modePracticeTitle: "Zen",
   modePracticeText: "Un lugar de menor presión para sentir el ritmo y ganar consistencia.",
@@ -293,7 +285,23 @@ for (const lang of ["fr", "de", "pt", "it", "ja", "ko", "zh", "ru", "tr", "hi", 
     },
     home: {
       ...NEON_I18N.en.home,
-      heroTitle: "Neon Eye",
+      heroTitle: {
+        fr: "Chaque milliseconde a une couleur.",
+        de: "Jede Millisekunde hat eine Farbe.",
+        pt: "Cada milissegundo tem uma cor.",
+        it: "Ogni millisecondo ha un colore.",
+        ja: "1ミリ秒ごとに色がある。",
+        ko: "모든 밀리초에는 색이 있습니다.",
+        zh: "每一毫秒都有颜色。",
+        ru: "У каждой миллисекунды есть цвет.",
+        tr: "Her milisaniyenin bir rengi var.",
+        hi: "हर मिलीसेकंड का अपना रंग है।",
+        id: "Setiap milidetik punya warna.",
+        nl: "Elke milliseconde heeft een kleur.",
+        pl: "Każda milisekunda ma kolor.",
+        sv: "Varje millisekund har en färg.",
+        vi: "Mỗi mili giây đều có một màu.",
+      }[lang],
       privacyCta: {
         fr: "Lire la confidentialité",
         de: "Datenschutz lesen",
@@ -328,40 +336,6 @@ for (const lang of ["fr", "de", "pt", "it", "ja", "ko", "zh", "ru", "tr", "hi", 
         sv: "Kontakta support",
         vi: "Liên hệ hỗ trợ",
       }[lang],
-      heroShotKicker: {
-        fr: "Gameplay Campagne",
-        de: "Kampagnen-Gameplay",
-        pt: "Gameplay da Campanha",
-        it: "Gameplay Campagna",
-        ja: "キャンペーン gameplay",
-        ko: "캠페인 플레이",
-        zh: "战役玩法",
-        ru: "Геймплей кампании",
-        tr: "Campaign oynanışı",
-        hi: "Campaign गेमप्ले",
-        id: "Gameplay Campaign",
-        nl: "Campagne-gameplay",
-        pl: "Rozgrywka kampanii",
-        sv: "Campaign-spel",
-        vi: "Gameplay Campaign",
-      }[lang],
-      heroShotTitle: {
-        fr: "Lisez l'anneau. Frappez l'instant.",
-        de: "Lies den Ring. Triff den Moment.",
-        pt: "Leia o anel. Acerte o instante.",
-        it: "Leggi l'anello. Colpisci l'istante.",
-        ja: "リングを読み、瞬間を打つ。",
-        ko: "링을 읽고 순간을 맞히세요.",
-        zh: "读懂圆环。击中瞬间。",
-        ru: "Читай кольцо. Попади в момент.",
-        tr: "Halkayı oku. Anı yakala.",
-        hi: "रिंग पढ़ें। सही पल पर वार करें।",
-        id: "Baca cincin. Tepat di saatnya.",
-        nl: "Lees de ring. Raak het moment.",
-        pl: "Czytaj pierścień. Traf w moment.",
-        sv: "Läs ringen. Träffa ögonblicket.",
-        vi: "Đọc vòng. Chạm đúng khoảnh khắc.",
-      }[lang],
       demoKicker: { fr: "Touchez la fenêtre", de: "Fenster tippen", pt: "Toque na janela", it: "Tocca la finestra", ja: "窓をタップ", ko: "창을 탭하세요", zh: "点击窗口", ru: "Нажмите окно", tr: "Pencereye dokun", hi: "विंडो टैप करें", id: "Ketuk jendela", nl: "Tik het venster", pl: "Dotknij okna", sv: "Tryck i fönstret", vi: "Chạm cửa sổ" }[lang],
       demoReady: { fr: "PRÊT", de: "BEREIT", pt: "PRONTO", it: "PRONTO", ja: "READY", ko: "준비", zh: "准备", ru: "ГОТОВО", tr: "HAZIR", hi: "तैयार", id: "SIAP", nl: "KLAAR", pl: "GOTOWE", sv: "REDO", vi: "SẴN SÀNG" }[lang],
       demoPerfect: { fr: "PARFAIT", de: "PERFEKT", pt: "PERFEITO", it: "PERFETTO", ja: "PERFECT", ko: "완벽", zh: "完美", ru: "ИДЕАЛЬНО", tr: "KUSURSUZ", hi: "परफेक्ट", id: "SEMPURNA", nl: "PERFECT", pl: "IDEALNIE", sv: "PERFEKT", vi: "HOÀN HẢO" }[lang],
@@ -393,21 +367,21 @@ for (const lang of ["fr", "de", "pt", "it", "ja", "ko", "zh", "ru", "tr", "hi", 
         vi: "Chính sách quyền riêng tư Neon Eye",
       }[lang],
       updated: {
-        fr: "Dernière mise à jour : 7 mai 2026",
-        de: "Zuletzt aktualisiert: 7. Mai 2026",
-        pt: "Última atualização: 7 de maio de 2026",
-        it: "Ultimo aggiornamento: 7 maggio 2026",
-        ja: "最終更新日: 2026年5月7日",
-        ko: "최종 업데이트: 2026년 5월 7일",
-        zh: "最后更新：2026年5月7日",
-        ru: "Последнее обновление: 7 мая 2026 г.",
-        tr: "Son güncelleme: 7 Mayıs 2026",
-        hi: "अंतिम अपडेट: 7 मई 2026",
-        id: "Terakhir diperbarui: 7 Mei 2026",
-        nl: "Laatst bijgewerkt: 7 mei 2026",
-        pl: "Ostatnia aktualizacja: 7 maja 2026",
-        sv: "Senast uppdaterad: 7 maj 2026",
-        vi: "Cập nhật lần cuối: 7 tháng 5, 2026",
+        fr: "Dernière mise à jour : 13 mai 2026",
+        de: "Zuletzt aktualisiert: 13. Mai 2026",
+        pt: "Última atualização: 13 de maio de 2026",
+        it: "Ultimo aggiornamento: 13 maggio 2026",
+        ja: "最終更新日: 2026年5月13日",
+        ko: "최종 업데이트: 2026년 5월 13일",
+        zh: "最后更新：2026年5月13日",
+        ru: "Последнее обновление: 13 мая 2026 г.",
+        tr: "Son güncelleme: 13 Mayıs 2026",
+        hi: "अंतिम अपडेट: 13 मई 2026",
+        id: "Terakhir diperbarui: 13 Mei 2026",
+        nl: "Laatst bijgewerkt: 13 mei 2026",
+        pl: "Ostatnia aktualizacja: 13 maja 2026",
+        sv: "Senast uppdaterad: 13 maj 2026",
+        vi: "Cập nhật lần cuối: 13 tháng 5, 2026",
       }[lang],
     },
     terms: {
@@ -581,8 +555,51 @@ function applyLanguage(lang, options = {}) {
   updatePageMetadata(dictionary);
 }
 
+function timingLabel(key) {
+  const lang = document.documentElement.lang || FALLBACK_LANG;
+  const dictionary = NEON_I18N[lang] || NEON_I18N[FALLBACK_LANG];
+  return translateKey(dictionary, key) || key;
+}
+
+function initTimingDemo() {
+  const target = document.querySelector("[data-timing-target]");
+  const score = document.querySelector("[data-timing-score]");
+  if (!target || !score) return;
+
+  const cycleMs = 3400;
+  let resetTimer = 0;
+
+  target.addEventListener("click", () => {
+    const phase = (performance.now() % cycleMs) / cycleMs;
+    const distance = Math.abs(phase - 0.5);
+    let outcome = "miss";
+    let label = "home.demoMiss";
+
+    if (distance < 0.07) {
+      outcome = "perfect";
+      label = "home.demoPerfect";
+    } else if (distance < 0.18) {
+      outcome = "good";
+      label = "home.demoGood";
+    }
+
+    score.textContent = timingLabel(label);
+    target.dataset.outcome = outcome;
+    target.classList.remove("timing-hit");
+    void target.offsetWidth;
+    target.classList.add("timing-hit");
+
+    window.clearTimeout(resetTimer);
+    resetTimer = window.setTimeout(() => {
+      target.dataset.outcome = "ready";
+      score.textContent = timingLabel("home.demoReady");
+    }, 1300);
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   applyLanguage(requestedLanguage());
+  initTimingDemo();
 
   document.querySelectorAll("[data-language-select]").forEach((select) => {
     select.addEventListener("change", (event) => {
