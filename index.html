@@ -1,248 +1,31 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#041209">
-  <meta name="description" content="Neon Eye is an independent precision timing game by Gaborandi with a 100-stage campaign, Zen and Flux modes, leaderboards, purchases, ads, consent, and clear privacy details.">
-  <link rel="canonical" href="https://gaborandi.github.io/neon-eye-privacy/">
-  <meta property="og:title" content="Neon Eye | Precision Timing Game">
-  <meta property="og:description" content="Precision timing, neon focus, and public privacy details for the independent mobile game.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://gaborandi.github.io/neon-eye-privacy/">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Neon Eye | Precision Timing Game">
-  <meta name="twitter:description" content="Precision timing, neon focus, and public privacy details for the independent mobile game.">
-  <title>Neon Eye | Precision Timing Game</title>
-  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%23041209"/><circle cx="32" cy="32" r="18" fill="none" stroke="%23ff8740" stroke-width="6"/><circle cx="32" cy="32" r="6" fill="%23ff8740"/></svg>'>
-  <link rel="stylesheet" href="./assets/site.css">
-</head>
-<body>
-  <a class="skip-link" href="#main" data-i18n="common.skip">Skip to content</a>
-
-  <header class="site-header">
-    <a class="brand" href="./" aria-label="Neon Eye home">
-      <span class="brand-mark" aria-hidden="true"><span></span></span>
-      <span>NEON EYE</span>
-    </a>
-    <nav class="site-nav" aria-label="Primary">
-      <a href="#game" data-i18n="common.game">Game</a>
-      <a href="#modes" data-i18n="common.modes">Modes</a>
-      <a href="#progress" data-i18n="common.progress">Progress</a>
-      <a href="./privacy/" data-i18n="common.privacy">Privacy</a>
-      <a href="./terms/" data-i18n="common.terms">Terms</a>
-      <a href="./support/" data-i18n="common.support">Support</a>
-    </nav>
-    <label class="language-control">
-      <span data-i18n="common.language">Language</span>
-      <select data-language-select aria-label="Language">
-        <option value="en">English</option>
-        <option value="ar">العربية</option>
-        <option value="es">Español</option>
-        <option value="fr">Français</option>
-        <option value="de">Deutsch</option>
-        <option value="pt">Português</option>
-        <option value="it">Italiano</option>
-        <option value="ja">日本語</option>
-        <option value="ko">한국어</option>
-        <option value="zh">简体中文</option>
-        <option value="ru">Русский</option>
-        <option value="tr">Türkçe</option>
-        <option value="hi">हिन्दी</option>
-        <option value="id">Bahasa Indonesia</option>
-        <option value="nl">Nederlands</option>
-        <option value="pl">Polski</option>
-        <option value="sv">Svenska</option>
-        <option value="vi">Tiếng Việt</option>
-      </select>
-    </label>
-  </header>
-
-  <main id="main">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow" data-i18n="home.eyebrow">Precision timing game</p>
-        <h1 data-i18n="home.heroTitle">Every millisecond has a color.</h1>
-        <p class="lede" data-i18n="home.heroText">
-          Neon Eye is a focused mobile timing game about reading a moving eye,
-          striking the perfect window, and pushing deeper through a 100-stage
-          campaign.
-        </p>
-        <div class="hero-actions" aria-label="Primary actions">
-          <span class="button primary inert" data-i18n="home.storeCta">App Store link coming soon</span>
-          <a class="button secondary" href="./privacy/" data-i18n="home.privacyCta">Read privacy policy</a>
-        </div>
-        <dl class="trust-strip" aria-label="Release profile">
-          <div><dt data-i18n="home.promiseOneTitle">100 stages</dt><dd data-i18n="home.promiseOneText">Campaign built around pressure</dd></div>
-          <div><dt data-i18n="home.promiseTwoTitle">Fast modes</dt><dd data-i18n="home.promiseTwoText">Zen, Flux, and daily play</dd></div>
-          <div><dt data-i18n="home.promiseThreeTitle">Player controls</dt><dd data-i18n="home.promiseThreeText">Consent, privacy, and support</dd></div>
-        </dl>
-      </div>
-
-      <div class="game-visual" aria-label="Neon Eye gameplay visual">
-        <div class="phone-shell">
-          <div class="eye-stage">
-            <div class="eye-title">NEON EYE</div>
-            <div class="eye-ring" aria-hidden="true"></div>
-            <div class="hit-zone" aria-hidden="true"></div>
-            <div class="pulse-line" aria-hidden="true"></div>
-            <button class="timing-demo" type="button" data-timing-target data-i18n-aria="home.demoButtonLabel" aria-label="Try the Neon Eye timing window">
-              <span class="demo-kicker" data-i18n="home.demoKicker">Tap the window</span>
-              <span class="demo-score" data-timing-score data-i18n="home.demoReady">READY</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="game" class="section-block">
-      <div class="section-heading">
-        <p class="eyebrow" data-i18n="home.systemEyebrow">The core idea</p>
-        <h2 data-i18n="home.systemTitle">A small game built around exact timing.</h2>
-      </div>
-      <div class="feature-grid">
-        <article>
-          <h3 data-i18n="home.featureOneTitle">Read the eye</h3>
-          <p data-i18n="home.featureOneText">The target is simple, but the pressure comes from motion, rhythm, and the shrinking perfect window.</p>
-        </article>
-        <article>
-          <h3 data-i18n="home.featureTwoTitle">Climb the campaign</h3>
-          <p data-i18n="home.featureTwoText">Campaign progress, medals, mastery goals, and challenge modes give each clean hit a purpose.</p>
-        </article>
-        <article>
-          <h3 data-i18n="home.featureThreeTitle">Respect the player</h3>
-          <p data-i18n="home.featureThreeText">Ads and online features are documented here, controlled by consent where required, and supported by clear choices.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="modes" class="section-block visual-band">
-      <div class="section-heading">
-        <p class="eyebrow" data-i18n="home.modesEyebrow">Launch modes</p>
-        <h2 data-i18n="home.modesTitle">One input, several kinds of pressure.</h2>
-        <p class="section-lede" data-i18n="home.modesText">Neon Eye keeps the rule simple, then changes the reason you care about each hit: stage progress, warmup, score pressure, cosmetics, and leaderboard attempts.</p>
-      </div>
-      <div class="mode-grid">
-        <article>
-          <span>01</span>
-          <h3 data-i18n="home.modeCampaignTitle">Campaign</h3>
-          <p data-i18n="home.modeCampaignText">A 100-stage path where the timing window tightens and clean hits matter more.</p>
-        </article>
-        <article>
-          <span>02</span>
-          <h3 data-i18n="home.modePracticeTitle">Zen</h3>
-          <p data-i18n="home.modePracticeText">A lower-pressure place to feel the rhythm, settle into the target, and build consistency.</p>
-        </article>
-        <article>
-          <span>03</span>
-          <h3 data-i18n="home.modeFluxTitle">Flux</h3>
-          <p data-i18n="home.modeFluxText">A sharper scoring mode for players who want the same timing language under changing pressure.</p>
-        </article>
-        <article>
-          <span>04</span>
-          <h3 data-i18n="home.modeMetaTitle">Leaderboard And Cosmetics</h3>
-          <p data-i18n="home.modeMetaText">Optional online ranking and cosmetic progress give clean runs a public and personal record.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="progress" class="section-block premium-band">
-      <div class="section-heading">
-        <p class="eyebrow" data-i18n="home.progressEyebrow">Built for launch</p>
-        <h2 data-i18n="home.progressTitle">Focused enough to understand, deep enough to return to.</h2>
-      </div>
-      <div class="proof-list">
-        <p data-i18n="home.progressOne">The first screen leads with the actual game surface: Campaign, Zen, Flux, Daily, Battle Pass, Leaderboard, Cosmetics, Shop, and Settings.</p>
-        <p data-i18n="home.progressTwo">Progression is built around campaign stages, medals, daily goals, mastery, Game Center rankings, and local device records.</p>
-        <p data-i18n="home.progressThree">The launch profile is transparent: ads, consent, ATT, purchases, support, and deletion requests are documented below.</p>
-      </div>
-    </section>
-
-    <section class="section-block screenshot-section">
-      <div class="screenshot-copy">
-        <p class="eyebrow" data-i18n="home.lookEyebrow">Game look</p>
-        <h2 data-i18n="home.lookTitle">Dark field, hot target, readable choices.</h2>
-        <p data-i18n="home.lookText">The game should feel focused before the first tap: high contrast, few distractions, and an interface that points the player toward timing, practice, progression, and support.</p>
-      </div>
-      <div class="screenshot-gallery" aria-label="Neon Eye game screenshots">
-        <figure class="game-shot featured-shot">
-          <img src="./assets/neon-eye-screen-menu.png" alt="Neon Eye main menu screenshot showing Campaign, Zen, Flux, Daily, Battle Pass, Leaderboard, Cosmetics, and Shop">
-          <figcaption data-i18n="home.menuShotCaption">Current main menu from the game build.</figcaption>
-        </figure>
-        <figure class="game-shot">
-          <img src="./assets/neon-eye-screen-campaign.png" alt="Neon Eye Campaign gameplay screenshot with the timing ring, arc target, needle, level, lives, tempo, and hit count">
-          <figcaption data-i18n="home.campaignShotCaption">Campaign timing screen.</figcaption>
-        </figure>
-        <figure class="game-shot">
-          <img src="./assets/neon-eye-screen-flux.png" alt="Neon Eye Flux gameplay screenshot with the timing ring, wave number, lives, timer, and moving target">
-          <figcaption data-i18n="home.fluxShotCaption">Flux pressure screen.</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section id="privacy" class="section-block premium-band">
-      <div class="section-heading">
-        <p class="eyebrow" data-i18n="privacy.eyebrow">Player trust</p>
-        <h2 data-i18n="privacy.title">Neon Eye Privacy Policy</h2>
-        <p class="legal-date" data-i18n="privacy.updated">Last updated: May 23, 2026</p>
-      </div>
-      <div class="proof-list">
-        <p data-i18n="common.translationNote">Translations are provided for convenience. If a translation differs from the English version, the English version controls.</p>
-        <p data-i18n="privacy.summary">The current launch profile includes ads, Google UMP consent, Apple's App Tracking Transparency prompt, Apple Game Center, Apple StoreKit purchases, local device records, Remove Ads, limited/non-personalized ads, support, and local data deletion requests.</p>
-      </div>
-    </section>
-
-    <section class="section-block">
-      <div class="policy-grid">
-        <article>
-          <h3 data-i18n="privacy.gameplayTitle">Gameplay And App Usage</h3>
-          <p data-i18n="privacy.gameplayText">We may process stages played, scores, medals, session duration, selected game mode, daily challenge state, cosmetic/progression state, settings, ad/revive interactions, shop interactions, technical errors, diagnostics, and performance data.</p>
-        </article>
-        <article>
-          <h3 data-i18n="privacy.onlineTitle">Online Features</h3>
-          <p data-i18n="privacy.onlineText">When online features are available, Neon Eye may use Apple Game Center for supported leaderboard scores and Apple StoreKit for purchase entitlements. Device leaderboard records and save progress are stored locally on your device; the shipped v1 app does not use a custom online leaderboard or remote save backend.</p>
-        </article>
-        <article>
-          <h3 data-i18n="privacy.adsTitle">Advertising And Tracking</h3>
-          <p data-i18n="privacy.adsText">Neon Eye uses Google AdMob for interstitial ads and optional rewarded ads. Google UMP manages consent where required. iOS tracking that requires permission is controlled by Apple's App Tracking Transparency prompt.</p>
-        </article>
-        <article>
-          <h3 data-i18n="privacy.purchaseTitle">Purchases</h3>
-          <p data-i18n="privacy.purchaseText">In-app purchases are processed by Apple StoreKit. We store entitlement state needed to unlock purchases such as Remove Ads and Battle Pass Premium, plus any future App Store products if they are offered later. Apple processes payment information.</p>
-        </article>
-        <article>
-          <h3 data-i18n="privacy.choicesTitle">Your Choices</h3>
-          <p data-i18n="privacy.choicesText">You can manage iOS tracking in Settings, use Google UMP privacy choices where shown, restore purchases through Apple, and contact support for access, correction, deletion, or purchase-support requests.</p>
-        </article>
-        <article>
-          <h3 data-i18n="privacy.sharingTitle">Data Sharing</h3>
-          <p data-i18n="privacy.sharingText">We do not sell personal information. Data is shared with Apple and Google only as needed for App Store distribution, ads, consent, purchases, Game Center, and support.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section-block premium-band">
-      <div class="section-heading">
-        <p class="eyebrow" data-i18n="privacy.detailsEyebrow">Details</p>
-        <h2 data-i18n="privacy.detailsTitle">Retention, children, and contact.</h2>
-      </div>
-      <div class="proof-list">
-        <p data-i18n="privacy.retentionText">Gameplay progress, local leaderboard records, settings, and entitlement state remain on your device unless you delete local data or remove the app. Apple and Google retain platform, purchase, Game Center, ad, and consent data according to their own policies.</p>
-        <p data-i18n="privacy.childrenText">Neon Eye is not directed to children under 13. The app includes age and consent guardrails where required.</p>
-        <p><span data-i18n="privacy.contactText">For privacy, support, correction, deletion, or purchase-support requests, email</span> <a href="mailto:a.alameldien@gmail.com">a.alameldien@gmail.com</a>.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <p data-i18n="common.footer">Neon Eye is an independent mobile game by Gaborandi.</p>
-    <nav aria-label="Footer">
-      <a href="./privacy/" data-i18n="common.privacy">Privacy</a>
-      <a href="./terms/" data-i18n="common.terms">Terms</a>
-      <a href="./support/" data-i18n="common.support">Support</a>
-    </nav>
-  </footer>
-
-  <script src="./site.js"></script>
-</body>
-</html>
+<html lang="en" dir="ltr"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080b13"><meta name="description" content="A one-tap reflex game of timing and reaction. Explore 100 Campaign stages, Flux, Daily, Practice, Zen and earned eye skins. Coming to iPhone and iPad.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title lang="en">Neon Eye: Reflex Game</title><link rel="canonical" href="https://gaborandi.github.io/neon-eye-privacy/">
+<meta property="og:title" content="Neon Eye: Reflex Game"><meta property="og:description" content="A one-tap reflex game of timing and reaction. Explore 100 Campaign stages, Flux, Daily, Practice, Zen and earned eye skins. Coming to iPhone and iPad."><meta property="og:type" content="website"><meta property="og:url" content="https://gaborandi.github.io/neon-eye-privacy/">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Neon Eye: Reflex Game"><meta name="twitter:description" content="A one-tap reflex game of timing and reaction. Explore 100 Campaign stages, Flux, Daily, Practice, Zen and earned eye skins. Coming to iPhone and iPad.">
+<link rel="icon" href="./assets/neon-eye-icon.png"><link rel="stylesheet" href="./assets/site.css?v=20261004">
+<script src="./site.js?v=20261004" defer></script></head>
+<body data-page="home">
+<a class="skip-link" href="#main" data-nav="skip">Skip to content</a>
+<header class="site-header wrap">
+<a class="brand" href="./" aria-label="Neon Eye home"><img src="./assets/neon-eye-icon.png" width="36" height="36" alt=""><span class="brand-label" lang="en" dir="ltr"><span>NEON EYE</span><span class="brand-descriptor">Reflex Game</span></span></a>
+<nav aria-label="Primary"><a href="./#modes" data-nav="modes">Modes</a><a href="./#collection" data-nav="skins">Eye skins</a><a href="./support/" data-nav="support">Support</a></nav>
+<label class="language" hidden><span data-nav="language">Language</span><select aria-label="Navigation language" data-language-select><option value="en">English</option><option value="ar">العربية</option><option value="es">Español</option><option value="fr">Français</option><option value="de">Deutsch</option><option value="pt">Português</option><option value="it">Italiano</option><option value="ja">日本語</option><option value="ko">한국어</option><option value="zh">简体中文</option><option value="ru">Русский</option><option value="tr">Türkçe</option><option value="hi">हिन्दी</option><option value="id">Bahasa Indonesia</option><option value="nl">Nederlands</option><option value="pl">Polski</option><option value="sv">Svenska</option><option value="vi">Tiếng Việt</option></select></label>
+</header>
+<p class="language-note wrap" lang="en" dir="ltr" hidden data-language-note>Navigation is translated. The game guide and policies below are currently in English.</p>
+<main id="main" lang="en" dir="ltr" tabindex="-1">
+<section class="hero wrap" id="game">
+<div class="hero-copy"><p class="eyebrow">One-tap timing &amp; reaction · iPhone &amp; iPad · Ages 13+</p><h1>Find your rhythm.<br><em>Own the moment.</em></h1><p class="lede">Watch the needle. Read the arc. Tap when they meet.<br>A small moment of focus, with a little more at stake every time.</p><div class="hero-actions"><a class="button primary" href="#modes">Find your mode <span aria-hidden="true">↘</span></a><a class="text-link" href="#collection">Explore the eyes</a></div><p class="availability">In development · App Store link coming after release</p><div class="hero-facts"><span><strong>100</strong> Campaign stages</span><span><strong>5</strong> ways to play</span><span><strong>21</strong> eye skins</span></div></div>
+<figure class="hero-screen"><div class="screen-frame"><img src="./assets/native91/iphone/03-five-modes.png" width="1320" height="2868" alt="Neon Eye home with Campaign, Flux, Daily, Practice and Zen, plus the next earned eye" fetchpriority="high"></div><figcaption>Five ways to find your rhythm</figcaption></figure>
+</section>
+<section class="rule-band"><div class="wrap rule-inner"><p class="eyebrow">The whole idea</p><p>A moving needle. A glowing arc.<br><strong>Your timing makes the difference.</strong></p><a class="text-link" href="./support/#how-to-play">How to play <span aria-hidden="true">↗</span></a></div></section>
+<section class="wrap section" id="modes"><div class="section-intro"><p class="eyebrow">Pick your pace</p><h2>Pressure, practice,<br>or a quiet minute.</h2><p>You don't have to play every mode the same way.</p></div><div class="modes"><article class="mode-row"><span class="number">01</span><h3>Campaign</h3><div><h4>Find your edge.</h4><p>Work through 100 stages, shifting targets and boss encounters. Earn medals and unlock the same stages in Practice.</p></div></article><article class="mode-row"><span class="number">02</span><h3>Flux</h3><div><h4>Read the risk.</h4><p>Survive changing waves. Choose temporary help or take a risk for bonus points, and build a run worth returning to.</p></div></article><article class="mode-row"><span class="number">03</span><h3>Daily</h3><div><h4>A reason to come back.</h4><p>Take on a new challenge each day. Complete it to build your daily streak and work toward new eye skins.</p></div></article><article class="mode-row"><span class="number">04</span><h3>Practice</h3><div><h4>Make the timing yours.</h4><p>Choose a stage reached in Campaign. Try a 12-tap drill with optional guides, slower speed and wider windows. The recap helps you improve; Campaign unlocks the next stage.</p></div></article><article class="mode-row"><span class="number">05</span><h3>Zen</h3><div><h4>Stay in the flow.</h4><p>Play without a countdown or game over. Find a comfortable speed and build a chain of hits. A miss resets the chain; the session continues.</p></div></article></div></section>
+<section class="collection-band" id="collection"><div class="wrap section"><div class="section-intro"><p class="eyebrow">The eye collection</p><h2>Earn a different<br>kind of glow.</h2><p>Four materials. Twenty-one eyes. Medals and Daily streaks unlock new looks. Preview any eye in the game, then equip it when you've earned it.</p></div><div class="skin-grid native-skins"><article class="skin-card"><img loading="lazy" src="./assets/native91/iphone/05-practice.png" width="1320" height="2868" alt="Classic Neon equipped in a Practice drill at 0 of 12 taps"><div class="skin-copy"><p class="eyebrow">PLASMA</p><h3>Classic Neon</h3><p>A soft, luminous halo, shown in Practice.</p><p class="unlock">Available from the start.</p><button type="button" class="theme-button" hidden data-theme="classic" aria-pressed="true">Preview Classic Neon mood</button></div></article><article class="skin-card"><img loading="lazy" src="./assets/native91/iphone/01-campaign.png" width="1320" height="2868" alt="Ice Blue equipped in paused Campaign stage 7"><div class="skin-copy"><p class="eyebrow">GLASS</p><h3>Ice Blue</h3><p>A crisp double edge, shown in Campaign.</p><p class="unlock">Earn 12 Silver-or-better Campaign medals.</p><button type="button" class="theme-button" hidden data-theme="ice" aria-pressed="false">Preview Ice Blue mood</button></div></article><article class="skin-card"><img loading="lazy" src="./assets/native91/iphone/04-flux.png" width="1320" height="2868" alt="Toxic Lime equipped at the start of Flux wave 1"><div class="skin-copy"><p class="eyebrow">PLASMA</p><h3>Toxic Lime</h3><p>A bright green glow, shown in Flux.</p><p class="unlock">One of the looks earned through play.</p><button type="button" class="theme-button" hidden data-theme="toxic" aria-pressed="false">Preview Toxic Lime mood</button></div></article></div><div class="collection-note"><p><strong>All style. Same timing.</strong> Skins change the ring, colors and atmosphere. They never make the target easier or increase your score.</p><p id="theme-status" role="status" aria-live="polite">Website mood: Classic Neon. This preview does not change your game.</p></div></div></section>
+<section class="wrap section play-section"><figure class="play-screen"><img loading="lazy" src="./assets/native91/iphone/01-campaign.png" width="1320" height="2868" alt="Paused Campaign stage 7 with a white needle, glowing target arc and a pause button on each side"><figcaption>Campaign · Paused stage 7 on iPhone</figcaption></figure><div class="section-intro"><p class="eyebrow">Room to find your flow</p><h2>Make yourself<br>comfortable.</h2><ul class="comfort-list"><li><strong>Pause with either hand.</strong><span>Controls sit on both sides of the playfield.</span></li><li><strong>Less decoration, more focus.</strong><span>Reduce decorative effects and choose a colorblind palette in Settings.</span></li><li><strong>Build confidence in Practice.</strong><span>Use a sector guide, slower speed or wider windows. Turn all aids off to match Campaign timing.</span></li><li><strong>Your pace in Zen.</strong><span>Adjust speed or choose Quiet play, and keep your own rhythm.</span></li></ul></div></section>
+<section class="wrap section native-gallery" id="screenshots"><div class="section-intro"><p class="eyebrow">Inside the game</p><h2>See your next<br>moment of focus.</h2><p>Actual game screens on iPhone and iPad. Tap any image to see it at full size.</p></div><details class="device-gallery" open><summary>iPhone screens</summary><div class="native-screen-grid iphone"><figure><a href="./assets/native91/iphone/01-campaign.png"><img loading="lazy" src="./assets/native91/iphone/01-campaign.png" width="1320" height="2868" alt="iPhone Campaign · Paused stage 7"></a><figcaption><strong>Campaign</strong><span>Paused stage 7</span></figcaption></figure><figure><a href="./assets/native91/iphone/02-eye-skins.png"><img loading="lazy" src="./assets/native91/iphone/02-eye-skins.png" width="1320" height="2868" alt="iPhone Eye skins · Available and locked looks"></a><figcaption><strong>Eye skins</strong><span>Available and locked looks</span></figcaption></figure><figure><a href="./assets/native91/iphone/03-five-modes.png"><img loading="lazy" src="./assets/native91/iphone/03-five-modes.png" width="1320" height="2868" alt="iPhone Five modes · Choose a mode or continue a saved run"></a><figcaption><strong>Five modes</strong><span>Choose a mode or continue a saved run</span></figcaption></figure><figure><a href="./assets/native91/iphone/04-flux.png"><img loading="lazy" src="./assets/native91/iphone/04-flux.png" width="1320" height="2868" alt="iPhone Flux · Wave 1 · risk and help sectors"></a><figcaption><strong>Flux</strong><span>Wave 1 · risk and help sectors</span></figcaption></figure><figure><a href="./assets/native91/iphone/05-practice.png"><img loading="lazy" src="./assets/native91/iphone/05-practice.png" width="1320" height="2868" alt="iPhone Practice · Stage 1 · 12-tap drill entry"></a><figcaption><strong>Practice</strong><span>Stage 1 · 12-tap drill entry</span></figcaption></figure><figure><a href="./assets/native91/iphone/06-zen.png"><img loading="lazy" src="./assets/native91/iphone/06-zen.png" width="1320" height="2868" alt="iPhone Zen · Adjust the pace and keep playing"></a><figcaption><strong>Zen</strong><span>Adjust the pace and keep playing</span></figcaption></figure><figure><a href="./assets/native91/iphone/07-daily.png"><img loading="lazy" src="./assets/native91/iphone/07-daily.png" width="1320" height="2868" alt="iPhone Daily · An example daily challenge before play"></a><figcaption><strong>Daily</strong><span>An example daily challenge before play</span></figcaption></figure></div></details><details class="device-gallery"><summary>iPad screens</summary><div class="native-screen-grid ipad"><figure><a href="./assets/native91/ipad/01-campaign.png"><img loading="lazy" src="./assets/native91/ipad/01-campaign.png" width="2064" height="2752" alt="iPad Campaign · Paused stage 7"></a><figcaption><strong>Campaign</strong><span>Paused stage 7</span></figcaption></figure><figure><a href="./assets/native91/ipad/02-eye-skins.png"><img loading="lazy" src="./assets/native91/ipad/02-eye-skins.png" width="2064" height="2752" alt="iPad Eye skins · Available and locked looks"></a><figcaption><strong>Eye skins</strong><span>Available and locked looks</span></figcaption></figure><figure><a href="./assets/native91/ipad/03-five-modes.png"><img loading="lazy" src="./assets/native91/ipad/03-five-modes.png" width="2064" height="2752" alt="iPad Five modes · Choose a mode or continue a saved run"></a><figcaption><strong>Five modes</strong><span>Choose a mode or continue a saved run</span></figcaption></figure><figure><a href="./assets/native91/ipad/04-flux.png"><img loading="lazy" src="./assets/native91/ipad/04-flux.png" width="2064" height="2752" alt="iPad Flux · Wave 1 · risk and help sectors"></a><figcaption><strong>Flux</strong><span>Wave 1 · risk and help sectors</span></figcaption></figure><figure><a href="./assets/native91/ipad/05-practice.png"><img loading="lazy" src="./assets/native91/ipad/05-practice.png" width="2064" height="2752" alt="iPad Practice · Stage 1 · 12-tap drill entry"></a><figcaption><strong>Practice</strong><span>Stage 1 · 12-tap drill entry</span></figcaption></figure><figure><a href="./assets/native91/ipad/06-zen.png"><img loading="lazy" src="./assets/native91/ipad/06-zen.png" width="2064" height="2752" alt="iPad Zen · Adjust the pace and keep playing"></a><figcaption><strong>Zen</strong><span>Adjust the pace and keep playing</span></figcaption></figure><figure><a href="./assets/native91/ipad/07-daily.png"><img loading="lazy" src="./assets/native91/ipad/07-daily.png" width="2064" height="2752" alt="iPad Daily · An example daily challenge before play"></a><figcaption><strong>Daily</strong><span>An example daily challenge before play</span></figcaption></figure></div></details></section><section class="wrap section player-section"><div class="section-intro"><p class="eyebrow">Before you play</p><h2>Clear choices.<br>No guessing.</h2></div><div class="player-grid"><article><h3>Ads &amp; one-time purchase</h3><p>Ads can appear at natural breaks. Remove Forced Ads is a one-time purchase that removes interstitial ads. Optional rewarded videos remain your choice, when available.</p><p>Price and availability are shown in the iOS app. No subscription is offered in this launch version.</p></article><article><h3>Your progress stays local</h3><p>Gameplay and Personal Records are saved on your device. There is no cloud-save service in this version. Core play works offline; ads, purchases, Restore and Game Center need online services.</p><a class="text-link" href="./privacy/">Read the privacy policy ↗</a></article><article><h3>Need a hand?</h3><p>Stage unlocking, sound, saved runs or a missing purchase? Start with the short answers in Support.</p><a class="button secondary" href="./support/">Get help</a></article></div></section></main>
+<footer class="site-footer wrap"><div><a class="brand" href="./">NEON EYE</a><p data-nav="footer">Neon Eye is an independent mobile game by Gaborandi.</p></div><nav aria-label="Footer"><a href="./privacy/" data-nav="privacy">Privacy</a><a href="./terms/" data-nav="terms">Terms</a><a href="./support/" data-nav="support">Support</a></nav></footer>
+</body></html>
